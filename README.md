@@ -38,5 +38,5 @@ A fast and secure exclusive control library used by k2hash, chmpx.
 ### License
 This software is released under the MIT License, see the license file.
 
-Copyright(C) 2018 Yahoo! JAPAN corporation.
+Copyright(C) 2018 Yahoo Japan corporation
 
