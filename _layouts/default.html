@@ -10,22 +10,21 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
     <section class="page-header">
-      <h1 class="project-name">{{ page.product_name }}</h1>
+      <h1 class="project-name">{{ site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.short_desc }}</h2>
-      <a href="https://yahoojapan.github.io/AntPickax/{{ page.lang_opp_file }}" class="btn">{{ page.lang_opp_word }}</a>
+      <a href="{{ site.url }}{{ site.baseurl }}/{{ page.lang_opp_file }}" class="btn">{{ page.lang_opp_word }}</a>
     </section>
-
+ 
     <section class="main-content">
       <h3>
 
       {{ content }}
 
       <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://yahoojapan.github.io/AntPickax/">{{ page.product_name }}</a> is maintained by <a href="https://www.yahoo.co.jp">Yahoo! JAPAN</a>.</span>
-        <span class="site-footer-owner">Copyright (C) <script type="text/javascript">document.write(new Date().getFullYear());</script> Yahoo Japan Corporation.</span>
+        <span class="site-footer-owner"><a href="{{ site.url }}{{ site.baseurl }}/">{{ site.github.repository_name }}</a> is maintained by <a href="https://www.yahoo.co.jp">Yahoo! JAPAN</a>.</span>
+        <span class="site-footer-owner">Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script> Yahoo! JAPAN corporation.</span>
       </footer>
     </section>
   </body>
