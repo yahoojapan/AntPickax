@@ -2,7 +2,6 @@
 layout: default
 language: ja
 title: AntPickax
-product_name: AntPickax
 short_desc: AntPickax provides basic libraries, components and systems
 lang_opp_file: index.html
 lang_opp_word: To English
