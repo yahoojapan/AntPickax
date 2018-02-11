@@ -38,7 +38,7 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 クラスタ構築のできる高速な通信ミドルウエアです。
 - [`k2htpdtor`](https://github.com/yahoojapan/k2htp_dtor/wiki)  
 [`k2hash`](https://github.com/yahoojapan/k2hash/wiki)ライブラリに組み込むことができるトランザクション処理のプラグインライブラリです。
-- [`fullock`](https://github.com/yahoojapan/fullock/wiki)
+- [`fullock`](https://github.com/yahoojapan/fullock/wiki)  
 [`k2hash`](https://github.com/yahoojapan/k2hash/wiki), [`chmpx`](https://github.com/yahoojapan/chmpx/wiki)で利用している高速な排他制御のライブラリです。
 
 # **AntPickax プロダクト**
