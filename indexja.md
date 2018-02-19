@@ -71,15 +71,15 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 [`k2hftfuse`](https://github.com/yahoojapan/k2hftfuse/wiki)は、仮想ファイルシステムを提供し、マウントしたディレクトリにファイルを書き込むだけで利用でき、ログファイルやデータなどを集約できます。
 既存プログラムの出力ファイルのディレクトリを[`k2hftfuse`](https://github.com/yahoojapan/k2hftfuse/wiki)でマウントするだけで、既存プログラムの変更なしにファイル/メッセージ転送ができます。
 
-- **アプリケーションへの追加依存ライブラリはゼロ**
+- **アプリケーションへの追加依存ライブラリはゼロ**  
 新たにk2hftfuseを使う場合、アプリケーションへのライブラリの依存関係が増えることはありません。OSレベルでサポートされた標準ライブラリを使うためです。
-- **高速で確実なデータ転送**
+- **高速で確実なデータ転送**  
 [`k2hash`](https://github.com/yahoojapan/k2hash/wiki)と[`chmpx`](https://github.com/yahoojapan/chmpx/wiki)の機能を活用し、高速で確実なデータ転送が可能です。
-- **多彩なデータフォーマットを転送可能**
+- **多彩なデータフォーマットを転送可能**  
 テキストだけではなく、バイナリデータ、メッセージ（1データを1メッセージとする）の転送が可能です。
-- **フィルタリング**
+- **フィルタリング**  
 転送データに対して、任意の加工処理が可能です。
-- **トリガー**
+- **トリガー**  
 転送データをトリガーにして、任意の処理を実行可能です。
 
 詳しくは、[ソースコード](https://github.com/yahoojapan/k2hftfuse)、[ドキュメント](https://github.com/yahoojapan/k2hftfuse/wiki/Home_jpn) を参照してください。
@@ -143,7 +143,7 @@ SSLでの通信をサポートしています。
 [`k2htp_dtor`](https://github.com/yahoojapan/k2htp_dtor/wiki)（**k2h**ash **T**ransaction **P**lugin **D**istributed **T**ransaction **O**f **R**epeater）は、**[`k2hash`](https://github.com/yahoojapan/k2hash/wiki)** のトランザクションデータを **[`chmpx`](https://github.com/yahoojapan/chmpx/wiki)** を利用して他ホストへ転送を行い、[`k2hash`](https://github.com/yahoojapan/k2hash/wiki)データの複製を容易に実現します。  
 [`k2hash`](https://github.com/yahoojapan/k2hash/wiki)ライブラリに対応したYahoo! JAPANの提供する標準トランザクションプラグインであり、トランザクションをトリガとして独自処理のための一般的な手段を提供します。
 
-- **複数プラグイン**
+- **複数プラグイン**  
 [`k2htpdtor`](https://github.com/yahoojapan/k2htp_dtor/wiki) は、複数のプラグインを連結して使うことができます。あるプラグインが処理した結果を、さらに別にプラグインで処理できます。
 
 詳しくは、[ソースコード](https://github.com/yahoojapan/k2htp_dtor)、[ドキュメント](https://github.com/yahoojapan/k2htp_dtor/wiki/Home_jpn) を参照してください。

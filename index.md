@@ -32,11 +32,11 @@ Among the created software, we have released software as an `AntPickax` product 
 ### **AntPickax Product List**
 `AntPickax` includes the following products.
 
-- [`k2hdkc`](https://github.com/yahoojapan/k2hdkc/wiki)    
+- [`k2hdkc`](https://github.com/yahoojapan/k2hdkc/wiki)  
 High performance and horizontal scalable distributed KVS cluster system based on [`k2hash`](https://github.com/yahoojapan/k2hash/wiki) and [`chmpx`](https://github.com/yahoojapan/chmpx/wiki).
 - [`k2hftfuse`](https://github.com/yahoojapan/k2hftfuse/wiki)  
 A component based on FUSE library which can transfer files, texts and logs at high speed and relay them and aggregate them.
-- [`k2hash`](https://github.com/yahoojapan/k2hash/wiki)    
+- [`k2hash`](https://github.com/yahoojapan/k2hash/wiki)  
 A vey fast Key Value Store(KVS) library featuring very large file support and many useful functions.
 - [`chmpx`](https://github.com/yahoojapan/chmpx/wiki)  
 A very fast network communication middleware to construct a cluster.
@@ -83,7 +83,7 @@ Very fast and reliable file transfer based on [`k2hash`](https://github.com/yaho
 Supported data formats are a single data message, a text file and a binary file.
 - **Filter**  
 Processing data for your purpose very easily!
-- **Trigger**
+- **Trigger**  
 Invoking your own function against particular data.
 
 For details, please refer to [Codes on github](https://github.com/yahoojapan/k2hftfuse), [Documents](https://github.com/yahoojapan/k2hftfuse/wiki).
@@ -149,8 +149,9 @@ For details, please refer to [Codes on github](https://github.com/yahoojapan/chm
 This library is a standard transaction plugin library compatible with the [`k2hash`](https://github.com/yahoojapan/k2hash/wiki) library provided by Yahoo! JAPAN.  
 This provides a general tool for users to process their own transactions as transaction triggers.
 
-- **Multiple plugins**
-[`k2htpdtor`](https://github.com/yahoojapan/k2htp_dtor/wiki) is a base component of data processing pipeline. A [`k2htpdtor`](https://github.com/yahoojapan/k2htp_dtor/wiki) plugin can invoke another plugin. As a result of processing by a certain plugin, the generated data can be processed by another plugin.
+- **Multiple plugins**  
+[`k2htpdtor`](https://github.com/yahoojapan/k2htp_dtor/wiki) is a base component of data processing pipeline.  
+A [`k2htpdtor`](https://github.com/yahoojapan/k2htp_dtor/wiki) plugin can invoke another plugin. As a result of processing by a certain plugin, the generated data can be processed by another plugin.
 
 For details, please refer to [Codes on github](https://github.com/yahoojapan/k2htp_dtor), [Documents](https://github.com/yahoojapan/k2htp_dtor/wiki).
 
