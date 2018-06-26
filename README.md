@@ -33,7 +33,7 @@ A standard plug-in library for transaction processing linked with the k2hash lib
 A fast and secure exclusive control library used by k2hash, chmpx.
 
 ### Doccuments
-- [AntPickax](http://yahoojapan.github.io/AntPickax)
+- [AntPickax](https://antpick.ax/)
 
 ### License
 This software is released under the MIT License, see the license file.
