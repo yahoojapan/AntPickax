@@ -48,7 +48,7 @@ A very fast and powerful lock library for multithread and multiprocess used in [
 # **AntPickax Products**
 
 ## {{ page.title_k2hdkc }}
-k2hdkc(**k2h**ash based **D**istributed **K**vs **C**luster) is a high performance and horizontal scalable distributed KVS cluster system based on **[**k2hash**](https://k2hash.antpick.ax/)**, **[**chmpx**](https://chmpx.antpick.ax/)** Distributed Key Value Store(KVS).  
+k2hdkc(**k2h**ash based **D**istributed **K**vs **C**luster) is a high performance and horizontal scalable distributed KVS cluster system based on [**k2hash**](https://k2hash.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/) Distributed Key Value Store(KVS).  
 
 The k2hdkc has unique features shown below.
 - **Consistency** (Automatic Data Synchronization between Server Nodes)  
@@ -144,7 +144,7 @@ The client program can use this component in multi process, multithreading.
 For details, please refer to [**Codes on github**](https://github.com/yahoojapan/chmpx), [**Documents**](https://chmpx.antpick.ax/).
 
 ## {{ page.title_k2htpdtor }}
-[**k2htp_dtor**](https://k2htpdtor.antpick.ax/)(**k2h**ash **T**ransaction **P**lugin **D**istributed **T**ransaction **O**f **R** epeater) easily duplicates the [**k2hash**](https://k2hash.antpick.ax/) data by transferring the transaction data of **[**k2hash**](https://k2hash.antpick.ax/)** to another host using **[**chmpx**](https://chmpx.antpick.ax/)**.  
+[**k2htp_dtor**](https://k2htpdtor.antpick.ax/)(**k2h**ash **T**ransaction **P**lugin **D**istributed **T**ransaction **O**f **R** epeater) easily duplicates the [**k2hash**](https://k2hash.antpick.ax/) data by transferring the transaction data of [**k2hash**](https://k2hash.antpick.ax/) to another host using [**chmpx**](https://chmpx.antpick.ax/).  
 
 This library is a standard transaction plugin library compatible with the [**k2hash**](https://k2hash.antpick.ax/) library provided by Yahoo! JAPAN.  
 This provides a general tool for users to process their own transactions as transaction triggers.
@@ -157,6 +157,6 @@ For details, please refer to [**Codes on github**](https://github.com/yahoojapan
 
 ## {{ page.title_fullock }}
 [**fullock**](https://fullock.antpick.ax/)(**F**ast **U**ser **L**evel **LOCK** library) is a low-level lock library that provides a safe and fast locking function for multiprocess, multithreaded programs.  
-This library is also used by other AntPickax products such as **[**k2hash**](https://k2hash.antpick.ax/)**, **[**chmpx**](https://chmpx.antpick.ax/)**.
+This library is also used by other AntPickax products such as [**k2hash**](https://k2hash.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/).
 
 For details, please refer to [**Codes on github**](https://github.com/yahoojapan/fullock), [**Documents**](https://fullock.antpick.ax/).
