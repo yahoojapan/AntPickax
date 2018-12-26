@@ -10,6 +10,7 @@ title_k2hftfuse: <a class="to_git_banner" href="https://k2hftfuse.antpick.ax/">k
 title_k2hash: <a class="to_git_banner" href="https://k2hash.antpick.ax/">k2hash</a>
 title_chmpx: <a class="to_git_banner" href="https://chmpx.antpick.ax/">chmpx</a>
 title_k2htpdtor: <a class="to_git_banner" href="https://k2htpdtor.antpick.ax/">k2htp_dtor</a>
+title_k2htpmdtor: <a class="to_git_banner" href="https://k2htpmdtor.antpick.ax/">k2htp_mdtor</a>
 title_fullock: <a class="to_git_banner" href="https://fullock.antpick.ax/">fullock</a>
 ---
 
@@ -42,6 +43,8 @@ A vey fast Key Value Store(KVS) library featuring very large file support and ma
 A very fast network communication middleware to construct a cluster.
 - [**k2htpdtor**](https://k2htpdtor.antpick.ax/)  
 A standard plug-in library for processing transaction data linked to the [**k2hash**](https://k2hash.antpick.ax/) library.
+- [**k2htpmdtor**](https://k2htpmdtor.antpick.ax/)  
+Another plug-in library for processing transaction data linked to the [**k2hash**](https://k2hash.antpick.ax/) library.
 - [**fullock**](https://fullock.antpick.ax/)  
 A very fast and powerful lock library for multithread and multiprocess used in [**k2hash**](https://k2hash.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/).
 
@@ -149,11 +152,14 @@ For details, please refer to [**Codes on github**](https://github.com/yahoojapan
 This library is a standard transaction plugin library compatible with the [**k2hash**](https://k2hash.antpick.ax/) library provided by Yahoo! JAPAN.  
 This provides a general tool for users to process their own transactions as transaction triggers.
 
-- **Multiple plugins**  
-[**k2htpdtor**](https://k2htpdtor.antpick.ax/) is a base component of data processing pipeline.  
-A [**k2htpdtor**](https://k2htpdtor.antpick.ax/) plugin can invoke another plugin. As a result of processing by a certain plugin, the generated data can be processed by another plugin.
-
 For details, please refer to [**Codes on github**](https://github.com/yahoojapan/k2htp_dtor), [**Documents**](https://k2htpdtor.antpick.ax/).
+
+## {{ page.title_k2htpmdtor }}
+[**k2htp_mdtor**](https://k2htpmdtor.antpick.ax/)(**k2h**ash **T**ransaction **P**lugin **M**ultiple **D**istributed **T**ransaction **O**f **R** epeater) easily duplicates the [**k2hash**](https://k2hash.antpick.ax/) data by transferring the transaction data of [**k2hash**](https://k2hash.antpick.ax/) to another host using [**chmpx**](https://chmpx.antpick.ax/).  
+
+The main purpose of **k2htp_mdtor**, which loads multiple [**k2hash**](https://k2hash.antpick.ax/) transaction plugins, is to call the arbitrary function defined in them. When calling the each function, **k2htp_mdtor** passes [**k2hash**](https://k2hash.antpick.ax/) transaction logs to it as a function's parameter. A common [**k2hash**](https://k2hash.antpick.ax/) transaction plugin loads no other one. We recommend you to use **k2htp_mdtor** if you want to use multiple [**k2hash**](https://k2hash.antpick.ax/) transaction plugins.
+
+For details, please refer to [**Codes on github**](https://github.com/yahoojapan/k2htp_mdtor), [**Documents**](https://k2htpmdtor.antpick.ax/).
 
 ## {{ page.title_fullock }}
 [**fullock**](https://fullock.antpick.ax/)(**F**ast **U**ser **L**evel **LOCK** library) is a low-level lock library that provides a safe and fast locking function for multiprocess, multithreaded programs.  

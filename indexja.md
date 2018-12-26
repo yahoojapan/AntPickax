@@ -10,6 +10,7 @@ title_k2hftfuse: <a class="to_git_banner" href="https://k2hftfuse.antpick.ax/ind
 title_k2hash: <a class="to_git_banner" href="https://k2hash.antpick.ax/indexja.html">k2hash</a>
 title_chmpx: <a class="to_git_banner" href="https://chmpx.antpick.ax/indexja.html">chmpx</a>
 title_k2htpdtor: <a class="to_git_banner" href="https://k2htpdtor.antpick.ax/indexja.html">k2htp_dtor</a>
+title_k2htpmdtor: <a class="to_git_banner" href="https://k2htpmdtor.antpick.ax/">k2htp_mdtor</a>
 title_fullock: <a class="to_git_banner" href="https://fullock.antpick.ax/indexja.html">fullock</a>
 ---
 
@@ -143,10 +144,14 @@ SSLでの通信をサポートしています。
 [**k2htp_dtor**](https://k2htpdtor.antpick.ax/indexja.html)（**k2h**ash **T**ransaction **P**lugin **D**istributed **T**ransaction **O**f **R**epeater）は、[**k2hash**](https://k2hash.antpick.ax/indexja.html) のトランザクションデータを [**chmpx**](https://chmpx.antpick.ax/indexja.html) を利用して他ホストへ転送を行い、[**k2hash**](https://k2hash.antpick.ax/indexja.html)データの複製を容易に実現します。  
 [**k2hash**](https://k2hash.antpick.ax/indexja.html)ライブラリに対応したYahoo! JAPANの提供する標準トランザクションプラグインであり、トランザクションをトリガとして独自処理のための一般的な手段を提供します。
 
-- **複数プラグイン**  
-[**k2htpdtor**](https://k2htpdtor.antpick.ax/indexja.html) は、複数のプラグインを連結して使うことができます。あるプラグインが処理した結果を、さらに別にプラグインで処理できます。
-
 詳しくは、[**ソースコード**](https://github.com/yahoojapan/k2htp_dtor)、[**ドキュメント**](https://k2htpdtor.antpick.ax/indexja.html) を参照してください。
+
+## {{ page.title_k2htpmdtor }}
+[**k2htp_mdtor**](https://k2htpmdtor.antpick.ax/indexja.html)（**k2h**ash **T**ransaction **P**lugin **M**ultiple **D**istributed **T**ransaction **O**f **R** epeater）は、[**chmpx**](https://chmpx.antpick.ax/indexja.html)を使用して[**k2hash**](https://k2hash.antpick.ax/indexja.html)のトランザクションデータを別のホストに転送することによって、[**k2hash**](https://k2hash.antpick.ax/indexja.html)データを簡単に複製します。
+
+複数の[**k2hash**](https://k2hash.antpick.ax/indexja.html)トランザクションプラグインをロードするk2htp_mdtorの主な目的は、それらに定義されている任意の関数を呼び出すことです。 各関数を呼び出すとき、k2htp_mdtorは[**k2hash**](https://k2hash.antpick.ax/indexja.html)トランザクションログを関数のパラメータとして渡します。 一般的な[**k2hash**](https://k2hash.antpick.ax/indexja.html)トランザクションプラグインは他のものをロードしません。 複数の[**k2hash**](https://k2hash.antpick.ax/indexja.html)トランザクションプラグインを使用したい場合は、[**k2htp_mdtor**](https://k2htpmdtor.antpick.ax/indexja.html)を使用することをお勧めします。
+
+詳しくは、[**ソースコード**](https://github.com/yahoojapan/k2htp_mdtor)、[**ドキュメント**](https://k2htpmdtor.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_fullock }}
 [**fullock**](https://fullock.antpick.ax/indexja.html)（**F**ast **U**ser **L**evel **LOCK** library）は、マルチプロセス、マルチスレッドから安全で、高速なロック機能を提供する低レベルのロックライブラリです。  
