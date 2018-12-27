@@ -6,9 +6,12 @@ short_desc: AntPickax provides basic libraries, components and systems
 lang_opp_file: index.html
 lang_opp_word: To English
 title_k2hdkc: <a class="to_git_banner" href="https://k2hdkc.antpick.ax/indexja.html">k2hdkc</a>
+title_k2hdkc_nodejs: <a class="to_git_banner" href="https://nodejs.k2hdkc.antpick.ax/indexja.html">k2hdkc nodejs addon</a>
 title_k2hftfuse: <a class="to_git_banner" href="https://k2hftfuse.antpick.ax/indexja.html">k2hftfuse</a>
 title_k2hash: <a class="to_git_banner" href="https://k2hash.antpick.ax/indexja.html">k2hash</a>
+title_k2hash_nodejs: <a class="to_git_banner" href="https://nodejs.k2hash.antpick.ax/indexja.html">k2hash nodejs addon</a>
 title_chmpx: <a class="to_git_banner" href="https://chmpx.antpick.ax/indexja.html">chmpx</a>
+title_chmpx_nodejs: <a class="to_git_banner" href="https://nodejs.chmpx.antpick.ax/indexja.html">chmpx nodejs addon</a>
 title_k2htpdtor: <a class="to_git_banner" href="https://k2htpdtor.antpick.ax/indexja.html">k2htp_dtor</a>
 title_k2htpmdtor: <a class="to_git_banner" href="https://k2htpmdtor.antpick.ax/">k2htp_mdtor</a>
 title_fullock: <a class="to_git_banner" href="https://fullock.antpick.ax/indexja.html">fullock</a>
@@ -31,12 +34,18 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 
 - [**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)  
 [**k2hash**](https://k2hash.antpick.ax/indexja.html)と[**chmpx**](https://chmpx.antpick.ax/indexja.html)をベースに作成された高速でオートスケール可能な分散KVSシステムです。
+- [**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/indexja.html)  
+[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のスレーブ側のクライアントプロセスをJavaScriptで構築することができるNode.jsライブラリです。
 - [**k2hftfuse**](https://k2hftfuse.antpick.ax/indexja.html)  
 高速にファイル、テキスト、ログを転送、中継転送、集約できるFUSEベースのコンポーネントです。
 - [**k2hash**](https://k2hash.antpick.ax/indexja.html)  
 高速、大容量で他にない多彩な機能を持つ Key Value Store（KVS）ライブラリです。
+- [**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/indexja.html)  
+[**k2hash**](https://k2hash.antpick.ax/indexja.html)をJavaScriptから操作するためのNode.jsライブラリです。
 - [**chmpx**](https://chmpx.antpick.ax/indexja.html)  
 クラスタ構築のできる高速な通信ミドルウエアです。
+- [**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/indexja.html)  
+[**chmpx**](https://chmpx.antpick.ax/indexja.html)を使った通信をJavaScriptで実装するためのNode.jsライブラリです。
 - [**k2htpdtor**](https://k2htpdtor.antpick.ax/indexja.html)  
 [**k2hash**](https://k2hash.antpick.ax/indexja.html)ライブラリに組み込むことができるトランザクション処理のプラグインライブラリです。
 - [**fullock**](https://fullock.antpick.ax/indexja.html)  
@@ -64,6 +73,13 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 [**k2hash**](https://k2hash.antpick.ax/indexja.html)の特徴であるキーの有効期限機能を分散KVSとして提供します。
 
 詳しくは、[**ソースコード**](https://github.com/yahoojapan/k2hdkc)、[**ドキュメント**](https://k2hdkc.antpick.ax/indexja.html) を参照してください。
+
+## {{ page.title_k2hdkc_nodejs }}
+[**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/indexja.html)（**K2HDKC** nodejs addon - k2hash based distributed kvs cluster)は、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のNode.js addonライブラリです。  
+このライブラリを利用して、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のスレーブ側クライアントアプリケーションを、Node.jsベースのJavaScriptで実装することができます。  
+[**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/indexja.html)は、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)の分散KVSのスレーブ側クライアントに必要なすべての機能・特徴を提供します。  
+
+詳しくは、[**ソースコード**](https://github.com/yahoojapan/k2hdkc_nodejs)、[**ドキュメント**](https://nodejs.k2hdkc.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_k2hftfuse }}
 [**k2hftfuse**](https://k2hftfuse.antpick.ax/indexja.html)（**k2h**ash **F**ile **T**ransaction by **FUSE** based file system）とは、[FUSE（Filesystem in Userspace）](https://github.com/libfuse/libfuse) によるユーザースペースでのマウント機能を利用したファイル/メッセージ転送システムです。  
@@ -120,6 +136,13 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 
 詳しくは、[**ソースコード**](https://github.com/yahoojapan/k2hash)、[**ドキュメント**](https://k2hash.antpick.ax/indexja.html) を参照してください。
 
+## {{ page.title_k2hash_nodejs }}
+[**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/indexja.html)（**K2HASH** nodejs addon - NoSQL Key Value Store(KVS) nodejs library)は、[**k2hash**](https://k2hash.antpick.ax/indexja.html)のNode.js addonライブラリです。  
+このライブラリを利用して、[**k2hash**](https://k2hash.antpick.ax/indexja.html)をNode.jsベースのJavaScriptのプログラムから操作できます。  
+[**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/indexja.html)は、[**k2hash**](https://k2hash.antpick.ax/indexja.html)のすべての機能・特徴を提供します。  
+
+詳しくは、[**ソースコード**](https://github.com/yahoojapan/k2hash_nodejs)、[**ドキュメント**](https://nodejs.k2hash.antpick.ax/indexja.html) を参照してください。
+
 ## {{ page.title_chmpx }}
 [**chmpx**](https://chmpx.antpick.ax/indexja.html)（**C**onsistent **H**ashing **M**q in**P**rocess data e**X**change）は、ネットワークをまたぐプロセス間におけるバイナリ通信を行うための通信ミドルウエアです。  
 
@@ -139,6 +162,13 @@ SSLでの通信をサポートしています。
 マルチプロセス、マルチスレッドに完全対応できています。
 
 詳しくは、[**ソースコード**](https://github.com/yahoojapan/chmpx)、[**ドキュメント**](https://chmpx.antpick.ax/indexja.html) を参照してください。
+
+## {{ page.title_chmpx_nodejs }}
+[**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/indexja.html)（**CHMPX** nodejs addon - Consistent Hashing Mq inProcess data eXchange)は、[**chmpx**](https://chmpx.antpick.ax/indexja.html)のNode.js addonライブラリです。  
+このライブラリを利用して、[**chmpx**](https://chmpx.antpick.ax/indexja.html)を使った通信プログラムのサーバ側、スレーブ側の両方をNode.jsベースのJavaScriptのプログラムで実装できます。  
+[**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/indexja.html)は、[**chmpx**](https://chmpx.antpick.ax/indexja.html)のすべての機能・特徴を提供します。  
+
+詳しくは、[**ソースコード**](https://github.com/yahoojapan/chmpx_nodejs)、[**ドキュメント**](https://nodejs.chmpx.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_k2htpdtor }}
 [**k2htp_dtor**](https://k2htpdtor.antpick.ax/indexja.html)（**k2h**ash **T**ransaction **P**lugin **D**istributed **T**ransaction **O**f **R**epeater）は、[**k2hash**](https://k2hash.antpick.ax/indexja.html) のトランザクションデータを [**chmpx**](https://chmpx.antpick.ax/indexja.html) を利用して他ホストへ転送を行い、[**k2hash**](https://k2hash.antpick.ax/indexja.html)データの複製を容易に実現します。  
