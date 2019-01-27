@@ -22,10 +22,10 @@ title_fullock: <a class="to_git_banner" href="https://fullock.antpick.ax/">fullo
 
 **AntPickax** is a series of a challenging product that made it easy to solve complicated problems. We hope **AntPickax** products are widely used and create next innovations!
 
-We will keep challenging to publish new open source software as a **AntPickax** product(like an **Ant** working with **pickax**).
+We will keep challenging to publish new open source software as a **AntPickax** product(like an **Ant** working with a  **pickax**).
 
 ### **Background**
-Though we use and contribute a lot of open source software in Yahoo! JAPAN, we have started producing the **AntPickax** with the following background.
+Though we use and contribute a lot of open source software in Yahoo! JAPAN, we have started producing **AntPickax** with the following background.
 - Basic functions that are necessary internally are not sufficient.
 - Adopting a new architecture to drastically reduce operating costs.
 - Performance (mainly speed and scalability) is insufficient.
@@ -37,19 +37,19 @@ Among the created software, we have released software as an **AntPickax** produc
 **AntPickax** includes the following products.
 
 - [**k2hdkc**](https://k2hdkc.antpick.ax/)  
-High performance and horizontal scalable distributed KVS cluster system based on [**k2hash**](https://k2hash.antpick.ax/) and [**chmpx**](https://chmpx.antpick.ax/).
+A high performance and horizontal scalable distributed KVS cluster system based on [**k2hash**](https://k2hash.antpick.ax/) and [**chmpx**](https://chmpx.antpick.ax/).
 - [**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/)  
-The Node.js addon library to implement [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave client process by JavaScript language.
+A Node.js addon library to implement [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave client process by JavaScript language.
 - [**k2hftfuse**](https://k2hftfuse.antpick.ax/)  
 A component based on FUSE library which can transfer files, texts and logs at high speed and relay them and aggregate them.
 - [**k2hash**](https://k2hash.antpick.ax/)  
 A vey fast Key Value Store(KVS) library featuring very large file support and many useful functions.
 - [**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/)  
-The Node.js addon library for using all [**k2hash**](https://k2hash.antpick.ax/) functions from your programs implemented by JavaScript language.
+A Node.js addon library for using all [**k2hash**](https://k2hash.antpick.ax/) functions from your programs implemented by JavaScript language.
 - [**chmpx**](https://chmpx.antpick.ax/)  
 A very fast network communication middleware to construct a cluster.
 - [**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/)  
-The Node.js addon library to use [**chmpx**](https://chmpx.antpick.ax/) communication function from server/slave program implemented by JavaScript language.
+A Node.js addon library to use [**chmpx**](https://chmpx.antpick.ax/) communication function from server/slave program implemented by JavaScript language.
 - [**k2htpdtor**](https://k2htpdtor.antpick.ax/)  
 A standard plug-in library for processing transaction data linked to the [**k2hash**](https://k2hash.antpick.ax/) library.
 - [**k2htpmdtor**](https://k2htpmdtor.antpick.ax/)  
@@ -81,7 +81,7 @@ Provides the key expiration function which is the feature of [**k2hash**](https:
 For details, please refer to [**Codes on github**](https://github.com/yahoojapan/k2hdkc), [**Documents**](https://k2hdkc.antpick.ax/).
 
 ## {{ page.title_k2hdkc_nodejs }}
-[**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/)（**K2HDKC** nodejs addon - k2hash based distributed kvs cluster) is the Node.js addon library of [**k2hdkc**](https://k2hdkc.antpick.ax/).  
+[**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/)（**K2HDKC** nodejs addon - k2hash based distributed kvs cluster) is a Node.js addon library of [**k2hdkc**](https://k2hdkc.antpick.ax/).  
 Using this library, [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave side client application can be implemented with Node.js based JavaScript.  
 [**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/) provides all functions and features necessary for the slave side client of distributed KVS of [**k2hdkc**](https://k2hdkc.antpick.ax/).  
 
@@ -108,7 +108,7 @@ Invoking your own function against particular data.
 For details, please refer to [**Codes on github**](https://github.com/yahoojapan/k2hftfuse), [**Documents**](https://k2hftfuse.antpick.ax/).
 
 ## {{ page.title_k2hash }}
-[**k2hash**](https://k2hash.antpick.ax/) is the NoSQL Key Value Store(KVS) library.
+[**k2hash**](https://k2hash.antpick.ax/) is a NoSQL Key Value Store(KVS) library.
 [**k2hash**](https://k2hash.antpick.ax/) has basic KVS functions and unique features shown below.
 
 - **High speed**  
@@ -143,7 +143,7 @@ A function that can set the expiration date of the key as an attribute.
 For details, please refer to [**Codes on github**](https://github.com/yahoojapan/k2hash), [**Documents**](https://k2hash.antpick.ax/).
 
 ## {{ page.title_k2hash_nodejs }}
-[**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/)（**K2HASH** nodejs addon - NoSQL Key Value Store(KVS) nodejs library) is the Node.js addon library of [**k2hash**](https://k2hash.antpick.ax/).  
+[**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/)（**K2HASH** nodejs addon - NoSQL Key Value Store(KVS) nodejs library) is a Node.js addon library of [**k2hash**](https://k2hash.antpick.ax/).  
 Using this library, you can operate [**k2hash**](https://k2hash.antpick.ax/)'s data from your Node.js based JavaScript program.  
 [**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/) provides all functions and features of [**k2hash**](https://k2hash.antpick.ax/).  
 
@@ -170,7 +170,7 @@ The client program can use this component in multi process, multithreading.
 For details, please refer to [**Codes on github**](https://github.com/yahoojapan/chmpx), [**Documents**](https://chmpx.antpick.ax/).
 
 ## {{ page.title_chmpx_nodejs }}
-[**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/)（**CHMPX** nodejs addon - Consistent Hashing Mq inProcess data eXchange) is the Node.js addon library of [**chmpx**](https://chmpx.antpick.ax/).  
+[**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/)（**CHMPX** nodejs addon - Consistent Hashing Mq inProcess data eXchange) is a Node.js addon library of [**chmpx**](https://chmpx.antpick.ax/).  
 Using this library, both server side and slave side of communication program using [**chmpx**](https://chmpx.antpick.ax/) can be implemented with Node.js based JavaScript program.  
 [**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/) provides all functions and features of [**chmpx**](https://chmpx.antpick.ax/).  
 
