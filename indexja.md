@@ -5,16 +5,19 @@ title: AntPickax
 short_desc: AntPickax provides basic libraries, components and systems
 lang_opp_file: index.html
 lang_opp_word: To English
-title_k2hdkc: <a class="to_git_banner" href="https://k2hdkc.antpick.ax/indexja.html">k2hdkc</a>
-title_k2hdkc_nodejs: <a class="to_git_banner" href="https://nodejs.k2hdkc.antpick.ax/indexja.html">k2hdkc nodejs addon</a>
-title_k2hftfuse: <a class="to_git_banner" href="https://k2hftfuse.antpick.ax/indexja.html">k2hftfuse</a>
-title_k2hash: <a class="to_git_banner" href="https://k2hash.antpick.ax/indexja.html">k2hash</a>
-title_k2hash_nodejs: <a class="to_git_banner" href="https://nodejs.k2hash.antpick.ax/indexja.html">k2hash nodejs addon</a>
-title_chmpx: <a class="to_git_banner" href="https://chmpx.antpick.ax/indexja.html">chmpx</a>
-title_chmpx_nodejs: <a class="to_git_banner" href="https://nodejs.chmpx.antpick.ax/indexja.html">chmpx nodejs addon</a>
-title_k2htpdtor: <a class="to_git_banner" href="https://k2htpdtor.antpick.ax/indexja.html">k2htp_dtor</a>
-title_k2htpmdtor: <a class="to_git_banner" href="https://k2htpmdtor.antpick.ax/">k2htp_mdtor</a>
-title_fullock: <a class="to_git_banner" href="https://fullock.antpick.ax/indexja.html">fullock</a>
+title_k2hr3: <a class="to_antpickax_banner" href="https://k2hr3.antpick.ax/indexja.html">k2hr3</a>
+title_k2hdkc: <a class="to_antpickax_banner" href="https://k2hdkc.antpick.ax/indexja.html">k2hdkc</a>
+title_k2hdkc_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hdkc.antpick.ax/indexja.html">k2hdkc nodejs addon</a>
+title_k2hftfuse: <a class="to_antpickax_banner" href="https://k2hftfuse.antpick.ax/indexja.html">k2hftfuse</a>
+title_k2hash: <a class="to_antpickax_banner" href="https://k2hash.antpick.ax/indexja.html">k2hash</a>
+title_k2hash_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hash.antpick.ax/indexja.html">k2hash nodejs addon</a>
+title_chmpx: <a class="to_antpickax_banner" href="https://chmpx.antpick.ax/indexja.html">chmpx</a>
+title_chmpx_nodejs: <a class="to_antpickax_banner" href="https://nodejs.chmpx.antpick.ax/indexja.html">chmpx nodejs addon</a>
+title_k2htpdtor: <a class="to_antpickax_banner" href="https://k2htpdtor.antpick.ax/indexja.html">k2htp_dtor</a>
+title_k2htpmdtor: <a class="to_antpickax_banner" href="https://k2htpmdtor.antpick.ax/indexja.html">k2htp_mdtor</a>
+title_fullock: <a class="to_antpickax_banner" href="https://fullock.antpick.ax/indexja.html">fullock</a>
+antpickax_icon: <span class="antpickax-icon-font-icon"></span>
+github_icon: <span class="to_git_icon"></span>
 ---
 
 # **AntPickax**
@@ -29,9 +32,15 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 
 作成されたソフトウエアのうち、既存のOSSと比較しても遜色のない性能を持ち、かつ、既存のOSSにない便利な機能を持つソフトウエアを、**AntPickax** プロダクトとしてオープンソースとして公開しています。
 
-### **AntPickax　プロダクト一覧**
+### **AntPickax プロダクト一覧**
+
+![AntPickax Products](images/top_antpickax.png)
+
 **AntPickax** プロダクトの公開しているオープンソースには、以下のものがあります。
 
+- [**k2hr3**](https://k2hr3.antpick.ax/indexja.html)  
+**IaaS**（Infrastructure as a Service）に対応した **RBAC** (**R**ole **B**ased **A**ccess **C**ontrol) を提供するシステムです。
+[**k2hash**](https://k2hash.antpick.ax/indexja.html)と[**chmpx**](https://chmpx.antpick.ax/indexja.html)をベースに作成された高速でオートスケール可能な分散KVSシステムです。
 - [**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)  
 [**k2hash**](https://k2hash.antpick.ax/indexja.html)と[**chmpx**](https://chmpx.antpick.ax/indexja.html)をベースに作成された高速でオートスケール可能な分散KVSシステムです。
 - [**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/indexja.html)  
@@ -53,6 +62,23 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 
 # **AntPickax プロダクト**
 
+## {{ page.title_k2hr3 }}
+[**k2hr3**](https://k2hr3.antpick.ax/indexja.html) (**K2H**dkc based **R**esource and **R**oles and policy **R**ules) は、Yahoo! JAPANオリジナルが公開する **RBAC** (**R**ole **B**ased **A**ccess **C**ontrol) システムのひとつです。  
+[**k2hr3**](https://k2hr3.antpick.ax/indexja.html) は、**RBAC** としての機能を、**IaaS**（Infrastructure as a Service）である **OpenStack** と連携して動作し、また **RBAC** を利用する上で便利な **+SERVICE機能** を提供します。  
+
+[**k2hr3**](https://k2hr3.antpick.ax/indexja.html) は、Yahoo! JAPANが公開している [**k2hash**](https://k2hash.antpick.ax/indexja.html)、[**k2htp_dtor**](https://k2htpdtor.antpick.ax/indexja.html)、[**chmpx**](https://chmpx.antpick.ax/indexja.html)、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html) 等を使って構築されています。
+[**k2hr3**](https://k2hr3.antpick.ax/indexja.html) は、以下のコンポネーントにより構成されています。  
+詳しくは、以下の詳細を参照してください。  
+- **k2hr3全体** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2hr3.antpick.ax/indexja.html)
+
+- **Web Application** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_app)
+
+- **REST API** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_api)
+
+- **OpenStack Notification Listener** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_osnl)
+
+- **Utilities** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_utils)
+
 ## {{ page.title_k2hdkc }}
 [**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)（**K2H**ash based **D**istributed **K**vs **C**luster）は、[**k2hash**](https://k2hash.antpick.ax/indexja.html), [**chmpx**](https://chmpx.antpick.ax/indexja.html)をベースとした高速で自動化された分散KVS（Distributed Key Value Store）です。  
 
@@ -72,14 +98,14 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 - **有効時間設定**  
 [**k2hash**](https://k2hash.antpick.ax/indexja.html)の特徴であるキーの有効期限機能を分散KVSとして提供します。
 
-詳しくは、[**ソースコード**](https://github.com/yahoojapan/k2hdkc)、[**ドキュメント**](https://k2hdkc.antpick.ax/indexja.html) を参照してください。
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2hdkc.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_k2hdkc_nodejs }}
 [**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/indexja.html)（**K2HDKC** nodejs addon - k2hash based distributed kvs cluster)は、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のNode.js addonライブラリです。  
 このライブラリを利用して、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のスレーブ側クライアントアプリケーションを、Node.jsベースのJavaScriptで実装することができます。  
 [**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/indexja.html)は、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)の分散KVSのスレーブ側クライアントに必要なすべての機能・特徴を提供します。  
 
-詳しくは、[**ソースコード**](https://github.com/yahoojapan/k2hdkc_nodejs)、[**ドキュメント**](https://nodejs.k2hdkc.antpick.ax/indexja.html) を参照してください。
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_nodejs)、{{ page.antpickax_icon }}[**ドキュメント**](https://nodejs.k2hdkc.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_k2hftfuse }}
 [**k2hftfuse**](https://k2hftfuse.antpick.ax/indexja.html)（**k2h**ash **F**ile **T**ransaction by **FUSE** based file system）とは、[FUSE（Filesystem in Userspace）](https://github.com/libfuse/libfuse) によるユーザースペースでのマウント機能を利用したファイル/メッセージ転送システムです。  
@@ -99,7 +125,7 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 - **トリガー**  
 転送データをトリガーにして、任意の処理を実行可能です。
 
-詳しくは、[**ソースコード**](https://github.com/yahoojapan/k2hftfuse)、[**ドキュメント**](https://k2hftfuse.antpick.ax/indexja.html) を参照してください。
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hftfuse)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2hftfuse.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_k2hash }}
 [**k2hash**](https://k2hash.antpick.ax/indexja.html)は、NoSQL Key Value Store（KVS）libraryです。  
@@ -134,14 +160,14 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 - **有効時間設定**  
 キーの有効期限を属性として設定できる機能です。
 
-詳しくは、[**ソースコード**](https://github.com/yahoojapan/k2hash)、[**ドキュメント**](https://k2hash.antpick.ax/indexja.html) を参照してください。
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hash)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2hash.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_k2hash_nodejs }}
 [**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/indexja.html)（**K2HASH** nodejs addon - NoSQL Key Value Store(KVS) nodejs library)は、[**k2hash**](https://k2hash.antpick.ax/indexja.html)のNode.js addonライブラリです。  
 このライブラリを利用して、[**k2hash**](https://k2hash.antpick.ax/indexja.html)をNode.jsベースのJavaScriptのプログラムから操作できます。  
 [**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/indexja.html)は、[**k2hash**](https://k2hash.antpick.ax/indexja.html)のすべての機能・特徴を提供します。  
 
-詳しくは、[**ソースコード**](https://github.com/yahoojapan/k2hash_nodejs)、[**ドキュメント**](https://nodejs.k2hash.antpick.ax/indexja.html) を参照してください。
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hash_nodejs)、{{ page.antpickax_icon }}[**ドキュメント**](https://nodejs.k2hash.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_chmpx }}
 [**chmpx**](https://chmpx.antpick.ax/indexja.html)（**C**onsistent **H**ashing **M**q in**P**rocess data e**X**change）は、ネットワークをまたぐプロセス間におけるバイナリ通信を行うための通信ミドルウエアです。  
@@ -161,31 +187,31 @@ SSLでの通信をサポートしています。
 - **マルチプロセス・マルチスレッド対応**  
 マルチプロセス、マルチスレッドに完全対応できています。
 
-詳しくは、[**ソースコード**](https://github.com/yahoojapan/chmpx)、[**ドキュメント**](https://chmpx.antpick.ax/indexja.html) を参照してください。
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/chmpx)、{{ page.antpickax_icon }}[**ドキュメント**](https://chmpx.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_chmpx_nodejs }}
 [**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/indexja.html)（**CHMPX** nodejs addon - Consistent Hashing Mq inProcess data eXchange)は、[**chmpx**](https://chmpx.antpick.ax/indexja.html)のNode.js addonライブラリです。  
 このライブラリを利用して、[**chmpx**](https://chmpx.antpick.ax/indexja.html)を使った通信プログラムのサーバ側、スレーブ側の両方をNode.jsベースのJavaScriptのプログラムで実装できます。  
 [**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/indexja.html)は、[**chmpx**](https://chmpx.antpick.ax/indexja.html)のすべての機能・特徴を提供します。  
 
-詳しくは、[**ソースコード**](https://github.com/yahoojapan/chmpx_nodejs)、[**ドキュメント**](https://nodejs.chmpx.antpick.ax/indexja.html) を参照してください。
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/chmpx_nodejs)、{{ page.antpickax_icon }}[**ドキュメント**](https://nodejs.chmpx.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_k2htpdtor }}
 [**k2htp_dtor**](https://k2htpdtor.antpick.ax/indexja.html)（**k2h**ash **T**ransaction **P**lugin **D**istributed **T**ransaction **O**f **R**epeater）は、[**k2hash**](https://k2hash.antpick.ax/indexja.html) のトランザクションデータを [**chmpx**](https://chmpx.antpick.ax/indexja.html) を利用して他ホストへ転送を行い、[**k2hash**](https://k2hash.antpick.ax/indexja.html)データの複製を容易に実現します。  
 [**k2hash**](https://k2hash.antpick.ax/indexja.html)ライブラリに対応したYahoo! JAPANの提供する標準トランザクションプラグインであり、トランザクションをトリガとして独自処理のための一般的な手段を提供します。
 
-詳しくは、[**ソースコード**](https://github.com/yahoojapan/k2htp_dtor)、[**ドキュメント**](https://k2htpdtor.antpick.ax/indexja.html) を参照してください。
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2htp_dtor)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2htpdtor.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_k2htpmdtor }}
 [**k2htp_mdtor**](https://k2htpmdtor.antpick.ax/indexja.html)（**k2h**ash **T**ransaction **P**lugin **M**ultiple **D**istributed **T**ransaction **O**f **R** epeater）は、[**chmpx**](https://chmpx.antpick.ax/indexja.html)を使用して[**k2hash**](https://k2hash.antpick.ax/indexja.html)のトランザクションデータを別のホストに転送することによって、[**k2hash**](https://k2hash.antpick.ax/indexja.html)データを簡単に複製します。
 
 複数の[**k2hash**](https://k2hash.antpick.ax/indexja.html)トランザクションプラグインをロードするk2htp_mdtorの主な目的は、それらに定義されている任意の関数を呼び出すことです。 各関数を呼び出すとき、k2htp_mdtorは[**k2hash**](https://k2hash.antpick.ax/indexja.html)トランザクションログを関数のパラメータとして渡します。 一般的な[**k2hash**](https://k2hash.antpick.ax/indexja.html)トランザクションプラグインは他のものをロードしません。 複数の[**k2hash**](https://k2hash.antpick.ax/indexja.html)トランザクションプラグインを使用したい場合は、[**k2htp_mdtor**](https://k2htpmdtor.antpick.ax/indexja.html)を使用することをお勧めします。
 
-詳しくは、[**ソースコード**](https://github.com/yahoojapan/k2htp_mdtor)、[**ドキュメント**](https://k2htpmdtor.antpick.ax/indexja.html) を参照してください。
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2htp_mdtor)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2htpmdtor.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_fullock }}
 [**fullock**](https://fullock.antpick.ax/indexja.html)（**F**ast **U**ser **L**evel **LOCK** library）は、マルチプロセス、マルチスレッドから安全で、高速なロック機能を提供する低レベルのロックライブラリです。  
 このライブラリは、[**k2hash**](https://k2hash.antpick.ax/indexja.html), [**chmpx**](https://chmpx.antpick.ax/indexja.html)など他の **AntPickax** プロダクトでも利用されています。
 
 
-詳しくは、[**ソースコード**](https://github.com/yahoojapan/fullock)、[**ドキュメント**](https://fullock.antpick.ax/indexja.html) を参照してください。
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/fullock)、{{ page.antpickax_icon }}[**ドキュメント**](https://fullock.antpick.ax/indexja.html) を参照してください。

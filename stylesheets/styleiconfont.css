@@ -18,7 +18,12 @@
 	text-transform:				none;
 }
 
-
 .antpickax-icon-font-logo:before {
+	content: "\E001";
+}
+
+.antpickax-icon-font-icon:before {
+	color: #2711a5;
+	font-size: 1.7rem;
 	content: "\E001";
 }
