@@ -5,16 +5,19 @@ title: AntPickax
 short_desc: AntPickax provides basic libraries, components and systems
 lang_opp_file: indexja.html
 lang_opp_word: To Japanese
-title_k2hdkc: <a class="to_git_banner" href="https://k2hdkc.antpick.ax/">k2hdkc</a>
-title_k2hdkc_nodejs: <a class="to_git_banner" href="https://nodejs.k2hdkc.antpick.ax/">k2hdkc nodejs addon</a>
-title_k2hftfuse: <a class="to_git_banner" href="https://k2hftfuse.antpick.ax/">k2hftfuse</a>
-title_k2hash: <a class="to_git_banner" href="https://k2hash.antpick.ax/">k2hash</a>
-title_k2hash_nodejs: <a class="to_git_banner" href="https://nodejs.k2hash.antpick.ax/">k2hash nodejs addon</a>
-title_chmpx: <a class="to_git_banner" href="https://chmpx.antpick.ax/">chmpx</a>
-title_chmpx_nodejs: <a class="to_git_banner" href="https://nodejs.chmpx.antpick.ax/">chmpx nodejs addon</a>
-title_k2htpdtor: <a class="to_git_banner" href="https://k2htpdtor.antpick.ax/">k2htp_dtor</a>
-title_k2htpmdtor: <a class="to_git_banner" href="https://k2htpmdtor.antpick.ax/">k2htp_mdtor</a>
-title_fullock: <a class="to_git_banner" href="https://fullock.antpick.ax/">fullock</a>
+title_k2hr3: <a class="to_antpickax_banner" href="https://k2hr3.antpick.ax/">k2hr3</a>
+title_k2hdkc: <a class="to_antpickax_banner" href="https://k2hdkc.antpick.ax/">k2hdkc</a>
+title_k2hdkc_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hdkc.antpick.ax/">k2hdkc nodejs addon</a>
+title_k2hftfuse: <a class="to_antpickax_banner" href="https://k2hftfuse.antpick.ax/">k2hftfuse</a>
+title_k2hash: <a class="to_antpickax_banner" href="https://k2hash.antpick.ax/">k2hash</a>
+title_k2hash_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hash.antpick.ax/">k2hash nodejs addon</a>
+title_chmpx: <a class="to_antpickax_banner" href="https://chmpx.antpick.ax/">chmpx</a>
+title_chmpx_nodejs: <a class="to_antpickax_banner" href="https://nodejs.chmpx.antpick.ax/">chmpx nodejs addon</a>
+title_k2htpdtor: <a class="to_antpickax_banner" href="https://k2htpdtor.antpick.ax/">k2htp_dtor</a>
+title_k2htpmdtor: <a class="to_antpickax_banner" href="https://k2htpmdtor.antpick.ax/">k2htp_mdtor</a>
+title_fullock: <a class="to_antpickax_banner" href="https://fullock.antpick.ax/">fullock</a>
+antpickax_icon: <span class="antpickax-icon-font-icon"></span>
+github_icon: <span class="to_git_icon"></span>
 ---
 
 # **AntPickax**
@@ -34,8 +37,13 @@ Though we use and contribute a lot of open source software in Yahoo! JAPAN, we h
 Among the created software, we have released software as an **AntPickax** product that has performance comparable to that of existing OSS and has useful functions not found in existing OSS.
 
 ### **AntPickax Product List**
+
+![AntPickax Products](images/top_antpickax.png)
+
 **AntPickax** includes the following products.
 
+- [**k2hr3**](https://k2hr3.antpick.ax/)  
+**K2HR3** is an **RBAC**(**R**ole **B**ased **A**ccess **C**ontrol) system that cooperates with **IaaS**(Infrastructure as a Service).
 - [**k2hdkc**](https://k2hdkc.antpick.ax/)  
 A high performance and horizontal scalable distributed KVS cluster system based on [**k2hash**](https://k2hash.antpick.ax/) and [**chmpx**](https://chmpx.antpick.ax/).
 - [**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/)  
@@ -59,6 +67,24 @@ A very fast and powerful lock library for multithread and multiprocess used in [
 
 # **AntPickax Products**
 
+## {{ page.title_k2hr3 }}
+[**k2hr3**](https://k2hr3.antpick.ax/) (**K2H**dkc based **R**esource and **R**oles and policy **R**ules) is one of **RBAC** (**R**ole **B**ased **A**ccess **C**ontrol) systems provided by Yahoo! JAPAN.  
+[**k2hr3**](https://k2hr3.antpick.ax/) works as **RBAC** in cooperation with **OpenStack** which is one of **IaaS** (Infrastructure as a Service), and also provides **useful functions** for using RBAC.  
+
+[**k2hr3**](https://k2hr3.antpick.ax/) gathers common management information for the cloud, and is built [**k2hash**](https://k2hash.antpick.ax/), [**k2htp_dtor**](https://k2htpdtor.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/) and [**k2hdkc**](https://k2hdkc.antpick.ax/) components.  
+
+[**k2hr3**](https://k2hr3.antpick.ax/) consists of the following components.  
+Please refer to the following for details.  
+- **Information aggregation of k2hr3** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3) and {{ page.antpickax_icon }}[**Documents**](https://k2hr3.antpick.ax/)
+
+- **Web Application** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_app)
+
+- **REST API** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_api)
+
+- **OpenStack Notification Listener** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_osnl)
+
+- **Utilities** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_utils)
+
 ## {{ page.title_k2hdkc }}
 k2hdkc(**k2h**ash based **D**istributed **K**vs **C**luster) is a high performance and horizontal scalable distributed KVS cluster system based on [**k2hash**](https://k2hash.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/) Distributed Key Value Store(KVS).  
 
@@ -78,14 +104,14 @@ Provides encryption function as distributed KVS for the key's data held as the f
 - **Expiration**  
 Provides the key expiration function which is the feature of [**k2hash**](https://k2hash.antpick.ax/) as distributed KVS.
 
-For details, please refer to [**Codes on github**](https://github.com/yahoojapan/k2hdkc), [**Documents**](https://k2hdkc.antpick.ax/).
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc), {{ page.antpickax_icon }}[**Documents**](https://k2hdkc.antpick.ax/).
 
 ## {{ page.title_k2hdkc_nodejs }}
 [**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/)（**K2HDKC** nodejs addon - k2hash based distributed kvs cluster) is a Node.js addon library of [**k2hdkc**](https://k2hdkc.antpick.ax/).  
 Using this library, [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave side client application can be implemented with Node.js based JavaScript.  
 [**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/) provides all functions and features necessary for the slave side client of distributed KVS of [**k2hdkc**](https://k2hdkc.antpick.ax/).  
 
-For details, please refer to [**Codes on github**](https://github.com/yahoojapan/k2hdkc_nodejs), [**Documents**](https://nodejs.k2hdkc.antpick.ax/).
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_nodejs), {{ page.antpickax_icon }}[**Documents**](https://nodejs.k2hdkc.antpick.ax/).
 
 ## {{ page.title_k2hftfuse }}
 [**k2hftfuse**](https://k2hftfuse.antpick.ax/)(**k2h**ash **F**ile **T**ransaction by **FUSE** based file system) is [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) is a file/message transfer system using the user space mounting function.  
@@ -105,7 +131,7 @@ Processing data for your purpose very easily!
 - **Trigger**  
 Invoking your own function against particular data.
 
-For details, please refer to [**Codes on github**](https://github.com/yahoojapan/k2hftfuse), [**Documents**](https://k2hftfuse.antpick.ax/).
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hftfuse), {{ page.antpickax_icon }}[**Documents**](https://k2hftfuse.antpick.ax/).
 
 ## {{ page.title_k2hash }}
 [**k2hash**](https://k2hash.antpick.ax/) is a NoSQL Key Value Store(KVS) library.
@@ -140,14 +166,14 @@ Can keep the update history of the key and this function can be used as a versio
 - **Expiration**  
 A function that can set the expiration date of the key as an attribute.
 
-For details, please refer to [**Codes on github**](https://github.com/yahoojapan/k2hash), [**Documents**](https://k2hash.antpick.ax/).
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hash), {{ page.antpickax_icon }}[**Documents**](https://k2hash.antpick.ax/).
 
 ## {{ page.title_k2hash_nodejs }}
 [**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/)（**K2HASH** nodejs addon - NoSQL Key Value Store(KVS) nodejs library) is a Node.js addon library of [**k2hash**](https://k2hash.antpick.ax/).  
 Using this library, you can operate [**k2hash**](https://k2hash.antpick.ax/)'s data from your Node.js based JavaScript program.  
 [**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/) provides all functions and features of [**k2hash**](https://k2hash.antpick.ax/).  
 
-For details, please refer to [**Codes on github**](https://github.com/yahoojapan/k2hash_nodejs), [**Documents**](https://nodejs.k2hash.antpick.ax/).
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hash_nodejs), {{ page.antpickax_icon }}[**Documents**](https://nodejs.k2hash.antpick.ax/).
 
 ## {{ page.title_chmpx }}
 [**chmpx**](https://chmpx.antpick.ax/) (**C**onsistent **H**ashing **M**q in**P**rocess data e**X**change) is a communication middleware for sending and receiving binary data between processes that cross network.
@@ -167,14 +193,14 @@ Data to be transmitted/received is queued and data will not be lost even with sm
 - **Multi-threading/Multi-processing**  
 The client program can use this component in multi process, multithreading.
 
-For details, please refer to [**Codes on github**](https://github.com/yahoojapan/chmpx), [**Documents**](https://chmpx.antpick.ax/).
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/chmpx), {{ page.antpickax_icon }}[**Documents**](https://chmpx.antpick.ax/).
 
 ## {{ page.title_chmpx_nodejs }}
 [**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/)（**CHMPX** nodejs addon - Consistent Hashing Mq inProcess data eXchange) is a Node.js addon library of [**chmpx**](https://chmpx.antpick.ax/).  
 Using this library, both server side and slave side of communication program using [**chmpx**](https://chmpx.antpick.ax/) can be implemented with Node.js based JavaScript program.  
 [**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/) provides all functions and features of [**chmpx**](https://chmpx.antpick.ax/).  
 
-For details, please refer to [**Codes on github**](https://github.com/yahoojapan/chmpx_nodejs), [**Documents**](https://nodejs.chmpx.antpick.ax/).
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/chmpx_nodejs), {{ page.antpickax_icon }}[**Documents**](https://nodejs.chmpx.antpick.ax/).
 
 ## {{ page.title_k2htpdtor }}
 [**k2htp_dtor**](https://k2htpdtor.antpick.ax/)(**k2h**ash **T**ransaction **P**lugin **D**istributed **T**ransaction **O**f **R** epeater) easily duplicates the [**k2hash**](https://k2hash.antpick.ax/) data by transferring the transaction data of [**k2hash**](https://k2hash.antpick.ax/) to another host using [**chmpx**](https://chmpx.antpick.ax/).  
@@ -182,17 +208,17 @@ For details, please refer to [**Codes on github**](https://github.com/yahoojapan
 This library is a standard transaction plugin library compatible with the [**k2hash**](https://k2hash.antpick.ax/) library provided by Yahoo! JAPAN.  
 This provides a general tool for users to process their own transactions as transaction triggers.
 
-For details, please refer to [**Codes on github**](https://github.com/yahoojapan/k2htp_dtor), [**Documents**](https://k2htpdtor.antpick.ax/).
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2htp_dtor), {{ page.antpickax_icon }}[**Documents**](https://k2htpdtor.antpick.ax/).
 
 ## {{ page.title_k2htpmdtor }}
 [**k2htp_mdtor**](https://k2htpmdtor.antpick.ax/)(**k2h**ash **T**ransaction **P**lugin **M**ultiple **D**istributed **T**ransaction **O**f **R** epeater) easily duplicates the [**k2hash**](https://k2hash.antpick.ax/) data by transferring the transaction data of [**k2hash**](https://k2hash.antpick.ax/) to another host using [**chmpx**](https://chmpx.antpick.ax/).  
 
 The main purpose of **k2htp_mdtor**, which loads multiple [**k2hash**](https://k2hash.antpick.ax/) transaction plugins, is to call the arbitrary function defined in them. When calling the each function, **k2htp_mdtor** passes [**k2hash**](https://k2hash.antpick.ax/) transaction logs to it as a function's parameter. A common [**k2hash**](https://k2hash.antpick.ax/) transaction plugin loads no other one. We recommend you to use **k2htp_mdtor** if you want to use multiple [**k2hash**](https://k2hash.antpick.ax/) transaction plugins.
 
-For details, please refer to [**Codes on github**](https://github.com/yahoojapan/k2htp_mdtor), [**Documents**](https://k2htpmdtor.antpick.ax/).
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2htp_mdtor), {{ page.antpickax_icon }}[**Documents**](https://k2htpmdtor.antpick.ax/).
 
 ## {{ page.title_fullock }}
 [**fullock**](https://fullock.antpick.ax/)(**F**ast **U**ser **L**evel **LOCK** library) is a low-level lock library that provides a safe and fast locking function for multiprocess, multithreaded programs.  
 This library is also used by other AntPickax products such as [**k2hash**](https://k2hash.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/).
 
-For details, please refer to [**Codes on github**](https://github.com/yahoojapan/fullock), [**Documents**](https://fullock.antpick.ax/).
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/fullock), {{ page.antpickax_icon }}[**Documents**](https://fullock.antpick.ax/).
