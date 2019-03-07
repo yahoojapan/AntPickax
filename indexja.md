@@ -40,6 +40,7 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 
 - [**k2hr3**](https://k2hr3.antpick.ax/indexja.html)  
 **IaaS**（Infrastructure as a Service）に対応した **RBAC** (**R**ole **B**ased **A**ccess **C**ontrol) を提供するシステムです。
+- [**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)  
 [**k2hash**](https://k2hash.antpick.ax/indexja.html)と[**chmpx**](https://chmpx.antpick.ax/indexja.html)をベースに作成された高速でオートスケール可能な分散KVSシステムです。
 - [**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)  
 [**k2hash**](https://k2hash.antpick.ax/indexja.html)と[**chmpx**](https://chmpx.antpick.ax/indexja.html)をベースに作成された高速でオートスケール可能な分散KVSシステムです。
