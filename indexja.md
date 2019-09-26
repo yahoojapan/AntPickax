@@ -72,13 +72,15 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 詳しくは、以下の詳細を参照してください。  
 - **k2hr3全体** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2hr3.antpick.ax/indexja.html)
 
-- **Web Application** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_app)
+- **Web Application** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_app)、{{ page.antpickax_icon }}[**デモンストレーション**](https://demo.k2hr3.antpick.ax/indexja.html)
 
 - **REST API** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_api)
 
 - **OpenStack Notification Listener** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_osnl)
 
 - **Utilities** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_utils)
+
+- **Container Registration Sidecar** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_sidecar)
 
 ## {{ page.title_k2hdkc }}
 [**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)（**K2H**ash based **D**istributed **K**vs **C**luster）は、[**k2hash**](https://k2hash.antpick.ax/indexja.html), [**chmpx**](https://chmpx.antpick.ax/indexja.html)をベースとした高速で自動化された分散KVS（Distributed Key Value Store）です。  
