@@ -77,13 +77,15 @@ A very fast and powerful lock library for multithread and multiprocess used in [
 Please refer to the following for details.  
 - **Information aggregation of k2hr3** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3) and {{ page.antpickax_icon }}[**Documents**](https://k2hr3.antpick.ax/)
 
-- **Web Application** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_app)
+- **Web Application** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_app) and {{ page.antpickax_icon }}[**Demonstration**](https://demo.k2hr3.antpick.ax/)
 
 - **REST API** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_api)
 
 - **OpenStack Notification Listener** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_osnl)
 
 - **Utilities** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_utils)
+
+- **Container Registration Sidecar** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_sidecar)
 
 ## {{ page.title_k2hdkc }}
 k2hdkc(**k2h**ash based **D**istributed **K**vs **C**luster) is a high performance and horizontal scalable distributed KVS cluster system based on [**k2hash**](https://k2hash.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/) Distributed Key Value Store(KVS).  
