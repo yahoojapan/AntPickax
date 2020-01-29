@@ -48,6 +48,8 @@ Among the created software, we have released software as an **AntPickax** produc
 A high performance and horizontal scalable distributed KVS cluster system based on [**k2hash**](https://k2hash.antpick.ax/) and [**chmpx**](https://chmpx.antpick.ax/).
 - [**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/)  
 A Node.js addon library to implement [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave client process by JavaScript language.
+- [**Java driver for k2hdkc**](https://java.k2hdkc.antpick.ax/)  
+A Java driver for [**k2hdkc**](https://k2hdkc.antpick.ax/)
 - [**k2hftfuse**](https://k2hftfuse.antpick.ax/)  
 A component based on FUSE library which can transfer files, texts and logs at high speed and relay them and aggregate them.
 - [**k2hash**](https://k2hash.antpick.ax/)  
