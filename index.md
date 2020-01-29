@@ -117,6 +117,13 @@ Using this library, [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave side client
 
 For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_nodejs), {{ page.antpickax_icon }}[**Documents**](https://nodejs.k2hdkc.antpick.ax/).
 
+## {{ page.title_k2hdkc_java }}
+[**Java Driver for K2HDKC **](https://java.k2hdkc.antpick.ax/index.html)（Java Driver for **K2HDKC**) is an official Java client library for [**k2hdkc**](https://k2hdkc.antpick.ax/index.html). This library provies all functions and features necessary for the slave side client of distributed KVS of [**k2hdkc**](https://k2hdkc.antpick.ax/). That means eveyone is able to implement [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave side client application by using this library. See the following documents for details.
+
+- {{ page.github_icon }}[**Code on GitHub**](https://github.com/yahoojapan/k2hdkc_java)
+- {{ page.antpickax_icon }}[**Project Documentation**](https://java.k2hdkc.antpick.ax/index.html)
+- {{ page.antpickax_icon }}[**API Documentation**](https://java.k2hdkc.antpick.ax/apidocs/index.html)
+
 ## {{ page.title_k2hftfuse }}
 [**k2hftfuse**](https://k2hftfuse.antpick.ax/)(**k2h**ash **F**ile **T**ransaction by **FUSE** based file system) is [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) is a file/message transfer system using the user space mounting function.  
 
