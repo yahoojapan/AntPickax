@@ -8,6 +8,7 @@ lang_opp_word: To Japanese
 title_k2hr3: <a class="to_antpickax_banner" href="https://k2hr3.antpick.ax/">k2hr3</a>
 title_k2hdkc: <a class="to_antpickax_banner" href="https://k2hdkc.antpick.ax/">k2hdkc</a>
 title_k2hdkc_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hdkc.antpick.ax/">k2hdkc nodejs addon</a>
+title_k2hdkc_java: <a class="to_antpickax_banner" href="https://java.k2hdkc.antpick.ax/">Java Driver for k2hdkc</a>
 title_k2hftfuse: <a class="to_antpickax_banner" href="https://k2hftfuse.antpick.ax/">k2hftfuse</a>
 title_k2hash: <a class="to_antpickax_banner" href="https://k2hash.antpick.ax/">k2hash</a>
 title_k2hash_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hash.antpick.ax/">k2hash nodejs addon</a>
