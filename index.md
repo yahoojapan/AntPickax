@@ -5,13 +5,16 @@ title: AntPickax
 short_desc: AntPickax provides basic libraries, components and systems
 lang_opp_file: indexja.html
 lang_opp_word: To Japanese
+title_k2hdkc_dbaas: <a class="to_antpickax_banner" href="https://dbaas.k2hdkc.antpick.ax/">k2hdkc dbaas</a>
 title_k2hr3: <a class="to_antpickax_banner" href="https://k2hr3.antpick.ax/">k2hr3</a>
 title_k2hdkc: <a class="to_antpickax_banner" href="https://k2hdkc.antpick.ax/">k2hdkc</a>
 title_k2hdkc_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hdkc.antpick.ax/">k2hdkc nodejs addon</a>
-title_k2hdkc_java: <a class="to_antpickax_banner" href="https://java.k2hdkc.antpick.ax/">Java Driver for k2hdkc</a>
+title_k2hdkc_java: <a class="to_antpickax_banner" href="https://java.k2hdkc.antpick.ax/">java driver for k2hdkc</a>
+title_k2hdkc_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc">k2hdkc golang</a>
 title_k2hftfuse: <a class="to_antpickax_banner" href="https://k2hftfuse.antpick.ax/">k2hftfuse</a>
 title_k2hash: <a class="to_antpickax_banner" href="https://k2hash.antpick.ax/">k2hash</a>
 title_k2hash_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hash.antpick.ax/">k2hash nodejs addon</a>
+title_k2hash_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash">k2hash golang</a>
 title_chmpx: <a class="to_antpickax_banner" href="https://chmpx.antpick.ax/">chmpx</a>
 title_chmpx_nodejs: <a class="to_antpickax_banner" href="https://nodejs.chmpx.antpick.ax/">chmpx nodejs addon</a>
 title_k2htpdtor: <a class="to_antpickax_banner" href="https://k2htpdtor.antpick.ax/">k2htp_dtor</a>
@@ -43,20 +46,26 @@ Among the created software, we have released software as an **AntPickax** produc
 
 **AntPickax** includes the following products.
 
+- [**k2hdkc dbaas**](https://dbaas.k2hdkc.antpick.ax/)  
+**K2HDKC DBaaS** (Database as a Service for K2HDKC) is a **Database as a Service** that is provided by [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) which incorporates [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) as one of the Database.  
 - [**k2hr3**](https://k2hr3.antpick.ax/)  
 **K2HR3** is an **RBAC**(**R**ole **B**ased **A**ccess **C**ontrol) system that cooperates with **IaaS**(Infrastructure as a Service).
 - [**k2hdkc**](https://k2hdkc.antpick.ax/)  
 A high performance and horizontal scalable distributed KVS cluster system based on [**k2hash**](https://k2hash.antpick.ax/) and [**chmpx**](https://chmpx.antpick.ax/).
 - [**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/)  
 A Node.js addon library to implement [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave client process by JavaScript language.
-- [**Java driver for k2hdkc**](https://java.k2hdkc.antpick.ax/)  
+- [**java driver for k2hdkc**](https://java.k2hdkc.antpick.ax/)  
 A Java driver for [**k2hdkc**](https://k2hdkc.antpick.ax/)
+- [**k2hdkc golang**](https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc)  
+A golang library for to implement [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave client process by Go language.
 - [**k2hftfuse**](https://k2hftfuse.antpick.ax/)  
 A component based on FUSE library which can transfer files, texts and logs at high speed and relay them and aggregate them.
 - [**k2hash**](https://k2hash.antpick.ax/)  
 A vey fast Key Value Store(KVS) library featuring very large file support and many useful functions.
 - [**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/)  
 A Node.js addon library for using all [**k2hash**](https://k2hash.antpick.ax/) functions from your programs implemented by JavaScript language.
+- [**k2hash golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash)  
+A golang library for to implement [**k2hash**](https://k2hdkc.antpick.ax/)'s slave client process by Go language.
 - [**chmpx**](https://chmpx.antpick.ax/)  
 A very fast network communication middleware to construct a cluster.
 - [**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/)  
@@ -69,6 +78,20 @@ Another plug-in library for processing transaction data linked to the [**k2hash*
 A very fast and powerful lock library for multithread and multiprocess used in [**k2hash**](https://k2hash.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/).
 
 # **AntPickax Products**
+
+## {{ page.title_k2hdkc_dbaas }}
+
+**K2HDKC DBaaS** (Database as a Service for K2HDKC) is a **Database as a Service** that is provided by [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) which incorporates [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) as one of the Database.  
+[**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/) is a "Database as a Service" that automates the construction and scaling of [K2HDKC](https://k2hdkc.antpick.ax/) clusters, data merging, and more.  
+
+[**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/) is built using [Trove](https://wiki.openstack.org/wiki/Trove) and [**k2hdkc**](https://k2hdkc.antpick.ax/), [**k2hr3**](https://k2hr3.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/), etc. published by Yahoo! JAPAN.  
+
+Please refer to the following for details.  
+- **Information aggregation of k2hdkc dbaas** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas)、{{ page.antpickax_icon }}[**Documents**](https://dbaas.k2hdkc.antpick.ax/)
+
+- **Execution environment** - {{ page.antpickax_icon }}[**Building a trial environment**](https://dbaas.k2hdkc.antpick.ax/build.html)
+
+- **Operation description** - {{ page.github_icon }}[**Usage**](https://dbaas.k2hdkc.antpick.ax/usage.html)
 
 ## {{ page.title_k2hr3 }}
 [**k2hr3**](https://k2hr3.antpick.ax/) (**K2H**dkc based **R**esource and **R**oles and policy **R**ules) is one of **RBAC** (**R**ole **B**ased **A**ccess **C**ontrol) systems provided by Yahoo! JAPAN.  
@@ -119,7 +142,18 @@ Using this library, [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave side client
 For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_nodejs), {{ page.antpickax_icon }}[**Documents**](https://nodejs.k2hdkc.antpick.ax/).
 
 ## {{ page.title_k2hdkc_java }}
-[**Java Driver for K2HDKC**](https://java.k2hdkc.antpick.ax/index.html)（Java Driver for **K2HDKC**) is an official Java client library for [**k2hdkc**](https://k2hdkc.antpick.ax/index.html). This library provies all functions and features necessary for the slave side client of distributed KVS of [**k2hdkc**](https://k2hdkc.antpick.ax/). That means eveyone is able to implement [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave side client application by using this library. For details, see the {{ page.github_icon }}[**Code on GitHub**](https://github.com/yahoojapan/k2hdkc_java), {{ page.antpickax_icon }}[**Project Documentation**](https://java.k2hdkc.antpick.ax/index.html).
+[**Java Driver for K2HDKC**](https://java.k2hdkc.antpick.ax/index.html)（Java Driver for **K2HDKC**) is an official Java client library for [**k2hdkc**](https://k2hdkc.antpick.ax/index.html).  
+This library provies all functions and features necessary for the slave side client of distributed KVS of [**k2hdkc**](https://k2hdkc.antpick.ax/).  
+That means eveyone is able to implement [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave side client application by using this library.  
+
+For details, see the {{ page.github_icon }}[**Code on GitHub**](https://github.com/yahoojapan/k2hdkc_java), {{ page.antpickax_icon }}[**Documents**](https://java.k2hdkc.antpick.ax/index.html).
+
+## {{ page.title_k2hdkc_go }}
+[**k2hdkc golang**](https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc) (**K2HDKC** golang - k2hash based distributed kvs cluster) is [**k2hdkc**](https://k2hdkc.antpick.ax/)'s Go language client library.  
+You can use this library to implement [**k2hdkc**](https://k2hdkc.antpick.ax/) slave-side client applications in Go language.  
+[**k2hdkc golang**](https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc) provides all the features and features required for the slave side client of the distributed KVS of [**k2hdkc**](https://k2hdkc.antpick.ax/).  
+
+For details, see the {{ page.github_icon }}[**Code on GitHub**](https://github.com/yahoojapan/k2hdkc_go), {{ page.antpickax_icon }}[**Documents**](https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc).
 
 ## {{ page.title_k2hftfuse }}
 [**k2hftfuse**](https://k2hftfuse.antpick.ax/)(**k2h**ash **F**ile **T**ransaction by **FUSE** based file system) is [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) is a file/message transfer system using the user space mounting function.  
@@ -183,6 +217,13 @@ Using this library, you can operate [**k2hash**](https://k2hash.antpick.ax/)'s d
 
 For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hash_nodejs), {{ page.antpickax_icon }}[**Documents**](https://nodejs.k2hash.antpick.ax/).
 
+## {{ page.title_k2hash_go }}
+[**k2hash golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash) (**K2HASH** golang - NoSQL Key Value Store(KVS) nodejs library) is [**k2hash**](https://k2hash.antpick.ax/)'s Go language client library.  
+You can use this library to implement [**k2hash**](https://k2hash.antpick.ax/) slave-side client applications in Go language.  
+[**k2hash golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash) provides all the functions and features of [**k2hash**](https://k2hash.antpick.ax/).  
+
+For details, see the {{ page.github_icon }}[**Code on GitHub**](https://github.com/yahoojapan/k2hash_go), {{ page.antpickax_icon }}[**Documents**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash).
+
 ## {{ page.title_chmpx }}
 [**chmpx**](https://chmpx.antpick.ax/) (**C**onsistent **H**ashing **M**q in**P**rocess data e**X**change) is a communication middleware for sending and receiving binary data between processes that cross network.
 
@@ -230,3 +271,4 @@ For details, please refer to {{ page.github_icon }}[**Codes on github**](https:/
 This library is also used by other AntPickax products such as [**k2hash**](https://k2hash.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/).
 
 For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/fullock), {{ page.antpickax_icon }}[**Documents**](https://fullock.antpick.ax/).
+
