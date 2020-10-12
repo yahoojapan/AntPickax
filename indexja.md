@@ -5,13 +5,16 @@ title: AntPickax
 short_desc: AntPickax provides basic libraries, components and systems
 lang_opp_file: index.html
 lang_opp_word: To English
+title_k2hdkc_dbaas: <a class="to_antpickax_banner" href="https://dbaas.k2hdkc.antpick.ax/indexja.html">k2hdkc dbaas</a>
 title_k2hr3: <a class="to_antpickax_banner" href="https://k2hr3.antpick.ax/indexja.html">k2hr3</a>
 title_k2hdkc: <a class="to_antpickax_banner" href="https://k2hdkc.antpick.ax/indexja.html">k2hdkc</a>
 title_k2hdkc_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hdkc.antpick.ax/indexja.html">k2hdkc nodejs addon</a>
-title_k2hdkc_java: <a class="to_antpickax_banner" href="https://java.k2hdkc.antpick.ax/">Java Driver for k2hdkc</a>
+title_k2hdkc_java: <a class="to_antpickax_banner" href="https://java.k2hdkc.antpick.ax/">java driver for k2hdkc</a>
+title_k2hdkc_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc">k2hdkc golang</a>
 title_k2hftfuse: <a class="to_antpickax_banner" href="https://k2hftfuse.antpick.ax/indexja.html">k2hftfuse</a>
 title_k2hash: <a class="to_antpickax_banner" href="https://k2hash.antpick.ax/indexja.html">k2hash</a>
 title_k2hash_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hash.antpick.ax/indexja.html">k2hash nodejs addon</a>
+title_k2hash_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash">k2hash golang</a>
 title_chmpx: <a class="to_antpickax_banner" href="https://chmpx.antpick.ax/indexja.html">chmpx</a>
 title_chmpx_nodejs: <a class="to_antpickax_banner" href="https://nodejs.chmpx.antpick.ax/indexja.html">chmpx nodejs addon</a>
 title_k2htpdtor: <a class="to_antpickax_banner" href="https://k2htpdtor.antpick.ax/indexja.html">k2htp_dtor</a>
@@ -39,30 +42,52 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 
 **AntPickax** プロダクトの公開しているオープンソースには、以下のものがあります。
 
+- [**k2hdkc dbaas**](https://dbaas.k2hdkc.antpick.ax/indexja.html)  
+[Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) にDatabaseのひとつとして [K2HDKC](https://k2hdkc.antpick.ax/indexja.html) を利用できるようにした、**Database as a Service**です。  
 - [**k2hr3**](https://k2hr3.antpick.ax/indexja.html)  
 **IaaS**（Infrastructure as a Service）に対応した **RBAC** (**R**ole **B**ased **A**ccess **C**ontrol) を提供するシステムです。
 - [**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)  
 [**k2hash**](https://k2hash.antpick.ax/indexja.html)と[**chmpx**](https://chmpx.antpick.ax/indexja.html)をベースに作成された高速でオートスケール可能な分散KVSシステムです。
 - [**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/indexja.html)  
-[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のスレーブ側のクライアントプロセスをJavaScriptで構築することができるNode.jsライブラリです。
-- [**k2hdkcのJavaドライバ**](https://java.k2hdkc.antpick.ax/)  
+[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)をJavaScriptから操作するためのNode.jsライブラリです。
+- [**java driver for k2hdkc**](https://java.k2hdkc.antpick.ax/)  
 [**k2hdkc**](https://k2hdkc.antpick.ax/)のJavaドライバです。
+- [**k2hdkc golang**](https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc)  
+[**k2hdkc**](https://k2hdkc.antpick.ax/)をGo言語から利用するライブラリです。
 - [**k2hftfuse**](https://k2hftfuse.antpick.ax/indexja.html)  
 高速にファイル、テキスト、ログを転送、中継転送、集約できるFUSEベースのコンポーネントです。
 - [**k2hash**](https://k2hash.antpick.ax/indexja.html)  
 高速、大容量で他にない多彩な機能を持つ Key Value Store（KVS）ライブラリです。
 - [**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/indexja.html)  
 [**k2hash**](https://k2hash.antpick.ax/indexja.html)をJavaScriptから操作するためのNode.jsライブラリです。
+- [**k2hash golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash)  
+[**k2hash**](https://k2hdkc.antpick.ax/)をGo言語から利用するライブラリです。
 - [**chmpx**](https://chmpx.antpick.ax/indexja.html)  
 クラスタ構築のできる高速な通信ミドルウエアです。
 - [**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/indexja.html)  
 [**chmpx**](https://chmpx.antpick.ax/indexja.html)を使った通信をJavaScriptで実装するためのNode.jsライブラリです。
 - [**k2htpdtor**](https://k2htpdtor.antpick.ax/indexja.html)  
 [**k2hash**](https://k2hash.antpick.ax/indexja.html)ライブラリに組み込むことができるトランザクション処理のプラグインライブラリです。
+- [**k2htpmdtor**](https://k2htpmdtor.antpick.ax/indexja.html)  
+複数の[**k2hash**](https://k2hash.antpick.ax/indexja.html)ライブラリに組み込むトランザクションプラグインをまとめるためのライブラリです。
 - [**fullock**](https://fullock.antpick.ax/indexja.html)  
 [**k2hash**](https://k2hash.antpick.ax/indexja.html), [**chmpx**](https://chmpx.antpick.ax/indexja.html)で利用している高速な排他制御のライブラリです。
 
 # **AntPickax プロダクト**
+
+## {{ page.title_k2hdkc_dbaas }}
+
+[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、[Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) にDatabaseのひとつとして 分散KVSである [K2HDKC](https://k2hdkc.antpick.ax/indexja.html) を利用できるようにした、**Database as a Service**です。  
+[**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、**Database as a Service**として、[K2HDKC](https://k2hdkc.antpick.ax/indexja.html)クラスターの構築およびスケール、データマージなどを自動化します。
+
+[**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、[Trove](https://wiki.openstack.org/wiki/Trove)および、Yahoo! JAPANが公開している [**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)、[**k2hr3**](https://k2hr3.antpick.ax/indexja.html)、[**chmpx**](https://chmpx.antpick.ax/indexja.html) 等を使って構築されています。
+
+詳しくは、以下の詳細を参照してください。  
+- **k2hdkc dbaas全体** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas)、{{ page.antpickax_icon }}[**ドキュメント**](https://dbaas.k2hdkc.antpick.ax/indexja.html)
+
+- **環境** - {{ page.antpickax_icon }}[**環境構築**](https://dbaas.k2hdkc.antpick.ax/buildja.html)
+
+- **操作方法** - {{ page.github_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usageja.html)
 
 ## {{ page.title_k2hr3 }}
 [**k2hr3**](https://k2hr3.antpick.ax/indexja.html) (**K2H**dkc based **R**esource and **R**oles and policy **R**ules) は、Yahoo! JAPANオリジナルが公開する **RBAC** (**R**ole **B**ased **A**ccess **C**ontrol) システムのひとつです。  
@@ -70,6 +95,7 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 
 [**k2hr3**](https://k2hr3.antpick.ax/indexja.html) は、Yahoo! JAPANが公開している [**k2hash**](https://k2hash.antpick.ax/indexja.html)、[**k2htp_dtor**](https://k2htpdtor.antpick.ax/indexja.html)、[**chmpx**](https://chmpx.antpick.ax/indexja.html)、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html) 等を使って構築されています。
 [**k2hr3**](https://k2hr3.antpick.ax/indexja.html) は、以下のコンポネーントにより構成されています。  
+
 詳しくは、以下の詳細を参照してください。  
 - **k2hr3全体** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2hr3.antpick.ax/indexja.html)
 
@@ -112,7 +138,18 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_nodejs)、{{ page.antpickax_icon }}[**ドキュメント**](https://nodejs.k2hdkc.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_k2hdkc_java }}
-[**K2HDKC Java ドライバ**](https://java.k2hdkc.antpick.ax/index.html)（**K2HDKC** Java ドライバ)は、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のJavaクライアントライブラリです。このライブラリを利用して、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のスレーブ側クライアントアプリケーションを、Javaで実装することができます。[**k2hdkc Java ドライバ**](https://java.k2hdkc.antpick.ax/index.html)は、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)の分散KVSのスレーブ側クライアントに必要なすべての機能・特徴を提供します。詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_java)、{{ page.antpickax_icon }}[**プロジェクトのドキュメント**](https://java.k2hdkc.antpick.ax/index.html) を参照してください。
+[**K2HDKC Java ドライバ**](https://java.k2hdkc.antpick.ax/index.html)（**K2HDKC** Java ドライバ)は、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のJavaクライアントライブラリです。  
+このライブラリを利用して、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のスレーブ側クライアントアプリケーションを、Javaで実装することができます。  
+[**k2hdkc Java ドライバ**](https://java.k2hdkc.antpick.ax/index.html)は、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)の分散KVSのスレーブ側クライアントに必要なすべての機能・特徴を提供します。  
+
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_java)、{{ page.antpickax_icon }}[**プロジェクトのドキュメント**](https://java.k2hdkc.antpick.ax/index.html) を参照してください。
+
+## {{ page.title_k2hdkc_go }}
+[**k2hdkc golang**](https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc)（**K2HDKC** golang - k2hash based distributed kvs cluster)は、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のGo言語クライアントライブラリです。  
+このライブラリを利用して、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のスレーブ側クライアントアプリケーションを、Go言語で実装できます。  
+[**k2hdkc golang**](https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc)は、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)の分散KVSのスレーブ側クライアントに必要なすべての機能・特徴を提供します。  
+
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_go)、{{ page.antpickax_icon }}[**ドキュメント**](https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc) を参照してください。
 
 ## {{ page.title_k2hftfuse }}
 [**k2hftfuse**](https://k2hftfuse.antpick.ax/indexja.html)（**k2h**ash **F**ile **T**ransaction by **FUSE** based file system）とは、[FUSE（Filesystem in Userspace）](https://github.com/libfuse/libfuse) によるユーザースペースでのマウント機能を利用したファイル/メッセージ転送システムです。  
@@ -176,6 +213,13 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 
 詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hash_nodejs)、{{ page.antpickax_icon }}[**ドキュメント**](https://nodejs.k2hash.antpick.ax/indexja.html) を参照してください。
 
+## {{ page.title_k2hash_go }}
+[**k2hash golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash)（**K2HASH** golang - NoSQL Key Value Store(KVS) nodejs library)は、[**k2hash**](https://k2hash.antpick.ax/indexja.html)のGo言語クライアントライブラリです。  
+このライブラリを利用して、[**k2hash**](https://k2hash.antpick.ax/indexja.html)を操作するプログラムをGo言語で実装できます。  
+[**k2hash golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash)は、[**k2hash**](https://k2hash.antpick.ax/indexja.html)のすべての機能・特徴を提供します。  
+
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hash_go)、{{ page.antpickax_icon }}[**ドキュメント**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash) を参照してください。
+
 ## {{ page.title_chmpx }}
 [**chmpx**](https://chmpx.antpick.ax/indexja.html)（**C**onsistent **H**ashing **M**q in**P**rocess data e**X**change）は、ネットワークをまたぐプロセス間におけるバイナリ通信を行うための通信ミドルウエアです。  
 
@@ -222,3 +266,4 @@ SSLでの通信をサポートしています。
 
 
 詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/fullock)、{{ page.antpickax_icon }}[**ドキュメント**](https://fullock.antpick.ax/indexja.html) を参照してください。
+
