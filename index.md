@@ -44,38 +44,22 @@ Among the created software, we have released software as an **AntPickax** produc
 
 ![AntPickax Products](images/top_antpickax.png)
 
-**AntPickax** includes the following products.
+**AntPickax** publishes the following products as open source.
 
-- [**k2hdkc dbaas**](https://dbaas.k2hdkc.antpick.ax/)  
-**K2HDKC DBaaS** (Database as a Service for K2HDKC) is a **Database as a Service** that is provided by [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) which incorporates [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) as one of the Database.  
-- [**k2hr3**](https://k2hr3.antpick.ax/)  
+#### [**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/)
+**K2HDKC DBaaS** (Database as a Service for K2HDKC) is a **Database as a Service** that is provided by [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) which incorporates [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) as one of the Database.
+#### [**K2HR3**](https://k2hr3.antpick.ax/)
 **K2HR3** is an **RBAC**(**R**ole **B**ased **A**ccess **C**ontrol) system that cooperates with **IaaS**(Infrastructure as a Service).
-- [**k2hdkc**](https://k2hdkc.antpick.ax/)  
-A high performance and horizontal scalable distributed KVS cluster system based on [**k2hash**](https://k2hash.antpick.ax/) and [**chmpx**](https://chmpx.antpick.ax/).
-- [**k2hdkc nodejs addon**](https://nodejs.k2hdkc.antpick.ax/)  
-A Node.js addon library to implement [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave client process by JavaScript language.
-- [**java driver for k2hdkc**](https://java.k2hdkc.antpick.ax/)  
-A Java driver for [**k2hdkc**](https://k2hdkc.antpick.ax/)
-- [**k2hdkc golang**](https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc)  
-A golang library for to implement [**k2hdkc**](https://k2hdkc.antpick.ax/)'s slave client process by Go language.
-- [**k2hftfuse**](https://k2hftfuse.antpick.ax/)  
+#### [**K2HDKC**](https://k2hdkc.antpick.ax/)
+A high performance and horizontal scalable distributed KVS cluster system based on [**K2HASH**](https://k2hash.antpick.ax/) and [**CHMPX**](https://chmpx.antpick.ax/).
+#### [**K2HFTFUSE**](https://k2hftfuse.antpick.ax/)
 A component based on FUSE library which can transfer files, texts and logs at high speed and relay them and aggregate them.
-- [**k2hash**](https://k2hash.antpick.ax/)  
-A vey fast Key Value Store(KVS) library featuring very large file support and many useful functions.
-- [**k2hash nodejs addon**](https://nodejs.k2hash.antpick.ax/)  
-A Node.js addon library for using all [**k2hash**](https://k2hash.antpick.ax/) functions from your programs implemented by JavaScript language.
-- [**k2hash golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash)  
-A golang library for to implement [**k2hash**](https://k2hdkc.antpick.ax/)'s slave client process by Go language.
-- [**chmpx**](https://chmpx.antpick.ax/)  
+#### [**CHMPX**](https://chmpx.antpick.ax/)
 A very fast network communication middleware to construct a cluster.
-- [**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/)  
-A Node.js addon library to use [**chmpx**](https://chmpx.antpick.ax/) communication function from server/slave program implemented by JavaScript language.
-- [**k2htpdtor**](https://k2htpdtor.antpick.ax/)  
-A standard plug-in library for processing transaction data linked to the [**k2hash**](https://k2hash.antpick.ax/) library.
-- [**k2htpmdtor**](https://k2htpmdtor.antpick.ax/)  
-Another plug-in library for processing transaction data linked to the [**k2hash**](https://k2hash.antpick.ax/) library.
-- [**fullock**](https://fullock.antpick.ax/)  
-A very fast and powerful lock library for multithread and multiprocess used in [**k2hash**](https://k2hash.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/).
+#### [**K2HASH**](https://k2hash.antpick.ax/)
+A vey fast Key Value Store(KVS) library featuring very large file support and many useful functions.
+#### [**FULLOCK**](https://fullock.antpick.ax/)  
+A very fast and powerful lock library for multithread and multiprocess used in [**K2HASH**](https://k2hash.antpick.ax/), [**CHMPX**](https://chmpx.antpick.ax/).
 
 # **AntPickax Products**
 
@@ -92,6 +76,8 @@ Please refer to the following for details.
 - **Execution environment** - {{ page.antpickax_icon }}[**Building a trial environment**](https://dbaas.k2hdkc.antpick.ax/build.html)
 
 - **Operation description** - {{ page.github_icon }}[**Usage**](https://dbaas.k2hdkc.antpick.ax/usage.html)
+
+- **Utility - k2hdkc_dbaas_override_conf** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas_override_conf)
 
 ## {{ page.title_k2hr3 }}
 [**k2hr3**](https://k2hr3.antpick.ax/) (**K2H**dkc based **R**esource and **R**oles and policy **R**ules) is one of **RBAC** (**R**ole **B**ased **A**ccess **C**ontrol) systems provided by Yahoo! JAPAN.  
@@ -112,6 +98,8 @@ Please refer to the following for details.
 - **Utilities** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_utils)
 
 - **Container Registration Sidecar** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_sidecar)
+
+- **K2HR3 Get Resource** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_get_resource)
 
 ## {{ page.title_k2hdkc }}
 k2hdkc(**k2h**ash based **D**istributed **K**vs **C**luster) is a high performance and horizontal scalable distributed KVS cluster system based on [**k2hash**](https://k2hash.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/) Distributed Key Value Store(KVS).  
@@ -175,6 +163,33 @@ Invoking your own function against particular data.
 
 For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hftfuse), {{ page.antpickax_icon }}[**Documents**](https://k2hftfuse.antpick.ax/).
 
+## {{ page.title_chmpx }}
+[**chmpx**](https://chmpx.antpick.ax/) (**C**onsistent **H**ashing **M**q in**P**rocess data e**X**change) is a communication middleware for sending and receiving binary data between processes that cross network.
+
+- **Basic functions**  
+[**chmpx**](https://chmpx.antpick.ax/) is responsible for communication between the server program and the client program, and hides the network communication connection from each program.
+- **Cluster/Multiplexing/Auto scaling**  
+[**chmpx**](https://chmpx.antpick.ax/) is a communication middleware that can create a cluster configuration, has high fault tolerance and multiplexing, and can be autoscaled.
+- **Communication data**  
+The format of the data to communicate is free, and it can communicate binary data and large size data.
+- **Communication encryption**  
+Supports communication with SSL.
+- **Communication multiplexing/Parallel processing**  
+Can multiplex and parallel communication between [**chmpx**](https://chmpx.antpick.ax/) server and slave.
+- **Queuing communication data**  
+Data to be transmitted/received is queued and data will not be lost even with small delay due to high load etc.
+- **Multi-threading/Multi-processing**  
+The client program can use this component in multi process, multithreading.
+
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/chmpx), {{ page.antpickax_icon }}[**Documents**](https://chmpx.antpick.ax/).
+
+## {{ page.title_chmpx_nodejs }}
+[**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/)（**CHMPX** nodejs addon - Consistent Hashing Mq inProcess data eXchange) is a Node.js addon library of [**chmpx**](https://chmpx.antpick.ax/).  
+Using this library, both server side and slave side of communication program using [**chmpx**](https://chmpx.antpick.ax/) can be implemented with Node.js based JavaScript program.  
+[**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/) provides all functions and features of [**chmpx**](https://chmpx.antpick.ax/).  
+
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/chmpx_nodejs), {{ page.antpickax_icon }}[**Documents**](https://nodejs.chmpx.antpick.ax/).
+
 ## {{ page.title_k2hash }}
 [**k2hash**](https://k2hash.antpick.ax/) is a NoSQL Key Value Store(KVS) library.
 [**k2hash**](https://k2hash.antpick.ax/) has basic KVS functions and unique features shown below.
@@ -224,33 +239,6 @@ You can use this library to implement [**k2hash**](https://k2hash.antpick.ax/) s
 
 For details, see the {{ page.github_icon }}[**Code on GitHub**](https://github.com/yahoojapan/k2hash_go), {{ page.antpickax_icon }}[**Documents**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash).
 
-## {{ page.title_chmpx }}
-[**chmpx**](https://chmpx.antpick.ax/) (**C**onsistent **H**ashing **M**q in**P**rocess data e**X**change) is a communication middleware for sending and receiving binary data between processes that cross network.
-
-- **Basic functions**  
-[**chmpx**](https://chmpx.antpick.ax/) is responsible for communication between the server program and the client program, and hides the network communication connection from each program.
-- **Cluster/Multiplexing/Auto scaling**  
-[**chmpx**](https://chmpx.antpick.ax/) is a communication middleware that can create a cluster configuration, has high fault tolerance and multiplexing, and can be autoscaled.
-- **Communication data**  
-The format of the data to communicate is free, and it can communicate binary data and large size data.
-- **Communication encryption**  
-Supports communication with SSL.
-- **Communication multiplexing/Parallel processing**  
-Can multiplex and parallel communication between [**chmpx**](https://chmpx.antpick.ax/) server and slave.
-- **Queuing communication data**  
-Data to be transmitted/received is queued and data will not be lost even with small delay due to high load etc.
-- **Multi-threading/Multi-processing**  
-The client program can use this component in multi process, multithreading.
-
-For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/chmpx), {{ page.antpickax_icon }}[**Documents**](https://chmpx.antpick.ax/).
-
-## {{ page.title_chmpx_nodejs }}
-[**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/)（**CHMPX** nodejs addon - Consistent Hashing Mq inProcess data eXchange) is a Node.js addon library of [**chmpx**](https://chmpx.antpick.ax/).  
-Using this library, both server side and slave side of communication program using [**chmpx**](https://chmpx.antpick.ax/) can be implemented with Node.js based JavaScript program.  
-[**chmpx nodejs addon**](https://nodejs.chmpx.antpick.ax/) provides all functions and features of [**chmpx**](https://chmpx.antpick.ax/).  
-
-For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/chmpx_nodejs), {{ page.antpickax_icon }}[**Documents**](https://nodejs.chmpx.antpick.ax/).
-
 ## {{ page.title_k2htpdtor }}
 [**k2htp_dtor**](https://k2htpdtor.antpick.ax/)(**k2h**ash **T**ransaction **P**lugin **D**istributed **T**ransaction **O**f **R** epeater) easily duplicates the [**k2hash**](https://k2hash.antpick.ax/) data by transferring the transaction data of [**k2hash**](https://k2hash.antpick.ax/) to another host using [**chmpx**](https://chmpx.antpick.ax/).  
 
@@ -271,4 +259,3 @@ For details, please refer to {{ page.github_icon }}[**Codes on github**](https:/
 This library is also used by other AntPickax products such as [**k2hash**](https://k2hash.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/).
 
 For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/fullock), {{ page.antpickax_icon }}[**Documents**](https://fullock.antpick.ax/).
-
