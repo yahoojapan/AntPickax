@@ -23,13 +23,15 @@ Among the created software, we have released software as an [**AntPickax**](http
 The open source codes that the AntPickax product has published includes the following.
 
 #### [K2HDKC DBAAS](https://github.com/yahoojapan/k2hdkc_dbaas)
-Database as a Service for K2HDKC is provided by Trove(OpenStack component).
+The database as a service of K2HDKC has the type provided by Trove(OpenStack component) and the type provided by Command Line Interface.
+- [K2HDKC DBaaS Command Line Interface(CLI)](https://github.com/yahoojapan/k2hdkc_dbaas_cli) - K2HDKC DBaaS Command Line Interface
 - [K2HDKC DBaaS Override Configuration](https://github.com/yahoojapan/k2hdkc_dbaas_override_conf)
 
 #### [K2HR3](https://github.com/yahoojapan/k2hr3)
 RBAC system(K2Hdkc based Resource and Roles and policy Rules).  
 - [K2HR3 REST API](https://github.com/yahoojapan/k2hr3_api) - K2HR3 Backend server
 - [K2HR3 Web Appication](https://github.com/yahoojapan/k2hr3_app) - K2HR3 GUI Frontend
+- [K2HR3 Command Line Interface(CLI)](https://github.com/yahoojapan/k2hr3_cli) - K2HR3 Command Line Interface
 - [K2HR3 Utilities](https://github.com/yahoojapan/k2hr3_utils)
 - [K2HR3 OpenStack Notification Listener](https://github.com/yahoojapan/k2hr3_osnl)
 - [K2HR3 Container Registration Sidecar](https://github.com/yahoojapan/k2hr3_sidecar)
