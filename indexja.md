@@ -43,7 +43,7 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 **AntPickax**は、以下のプロダクトをオープンソースとして公開しています。
 
 #### [**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/indexja.html)
-[Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) にDatabaseのひとつとして [K2HDKC](https://k2hdkc.antpick.ax/indexja.html) を利用できるようにした、**Database as a Service**です。  
+**K2HDKC DBaaS** (Database as a Service for K2HDKC) は、[K2HR3](https://k2hr3.antpick.ax/indexja.html)を使い、[OpenStack](https://www.openstack.org/) と連動して、分散KVSである [K2HDKC](https://k2hdkc.antpick.ax/indexja.html) の環境を構築する**Database as a Service**です。
 #### [**K2HR3**](https://k2hr3.antpick.ax/indexja.html)
 **IaaS**（Infrastructure as a Service）に対応した **RBAC** (**R**ole **B**ased **A**ccess **C**ontrol) を提供するシステムです。
 #### [**K2HDKC**](https://k2hdkc.antpick.ax/indexja.html)
@@ -61,8 +61,15 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 
 ## {{ page.title_k2hdkc_dbaas }}
 
-[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、[Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) にDatabaseのひとつとして 分散KVSである [K2HDKC](https://k2hdkc.antpick.ax/indexja.html) を利用できるようにした、**Database as a Service**です。  
-[**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、**Database as a Service**として、[K2HDKC](https://k2hdkc.antpick.ax/indexja.html)クラスターの構築およびスケール、データマージなどを自動化します。
+[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、[K2HR3](https://k2hr3.antpick.ax/indexja.html)を使い、[OpenStack](https://www.openstack.org/) と連動して、分散KVSである [K2HDKC](https://k2hdkc.antpick.ax/indexja.html) の環境を構築する**Database as a Service**です。  
+
+[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、**2つの方法**を提供します。  
+
+一つは、[OpenStack](https://www.openstack.org/) のプロダクトである [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) を使った**DBaaS（Database as a Service）**です。  
+これは、[Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove)のひとつのデータベース（分散KVS）として、[K2HDKC](https://k2hdkc.antpick.ax/indexja.html) を組み込み、DBaaSを実現します。  
+
+もう一つは、[OpenStack](https://www.openstack.org/)の環境を持っていることを前提とし、**K2HDKC DBaaS CLI（Command Line Interface）**を使って、**DBaaS（Database as a Service）**が実現できます。
+共に、**Database as a Service**として、[K2HDKC](https://k2hdkc.antpick.ax/indexja.html)クラスターの構築およびスケール、データマージなどを自動化します。
 
 [**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、[Trove](https://wiki.openstack.org/wiki/Trove)および、Yahoo! JAPANが公開している [**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)、[**k2hr3**](https://k2hr3.antpick.ax/indexja.html)、[**chmpx**](https://chmpx.antpick.ax/indexja.html) 等を使って構築されています。
 
@@ -72,6 +79,8 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 - **環境** - {{ page.antpickax_icon }}[**環境構築**](https://dbaas.k2hdkc.antpick.ax/buildja.html)
 
 - **操作方法** - {{ page.github_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usageja.html)
+
+- **Command Line Interface(CLI)** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas_cli)、{{ page.antpickax_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usage_clija.html)
 
 - **ユーティリティ k2hdkc_dbaas_override_conf** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas_override_conf)
 
@@ -86,6 +95,8 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 - **k2hr3全体** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2hr3.antpick.ax/indexja.html)
 
 - **Web Application** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_app)、{{ page.antpickax_icon }}[**デモンストレーション**](https://demo.k2hr3.antpick.ax/indexja.html)
+
+- **Command Line Interface(CLI)** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_cli)、{{ page.antpickax_icon }}[**使い方**](https://k2hr3.antpick.ax/clija.html)
 
 - **REST API** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_api)
 

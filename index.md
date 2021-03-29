@@ -47,7 +47,7 @@ Among the created software, we have released software as an **AntPickax** produc
 **AntPickax** publishes the following products as open source.
 
 #### [**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/)
-**K2HDKC DBaaS** (Database as a Service for K2HDKC) is a **Database as a Service** that is provided by [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) which incorporates [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) as one of the Database.
+**K2HDKC DBaaS** (Database as a Service for K2HDKC) is a **Database as a Service** that uses [K2HR3](https://k2hr3.antpick.ax/) and works with [OpenStack](https://www.openstack.org/) to build a [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) Cluster for distributed KVS.
 #### [**K2HR3**](https://k2hr3.antpick.ax/)
 **K2HR3** is an **RBAC**(**R**ole **B**ased **A**ccess **C**ontrol) system that cooperates with **IaaS**(Infrastructure as a Service).
 #### [**K2HDKC**](https://k2hdkc.antpick.ax/)
@@ -65,17 +65,24 @@ A very fast and powerful lock library for multithread and multiprocess used in [
 
 ## {{ page.title_k2hdkc_dbaas }}
 
-**K2HDKC DBaaS** (Database as a Service for K2HDKC) is a **Database as a Service** that is provided by [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) which incorporates [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) as one of the Database.  
-[**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/) is a "Database as a Service" that automates the construction and scaling of [K2HDKC](https://k2hdkc.antpick.ax/) clusters, data merging, and more.  
+[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/) is a **Database as a Service** that uses [K2HR3](https://k2hr3.antpick.ax/) and works with [OpenStack](https://www.openstack.org/) to build a [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) Cluster for distributed KVS.  
+
+[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/indexja.html) provides **two ways**.  
+One is **DBaaS (Database as a Service)** using [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove), which is a product of [OpenStack](https://www.openstack.org/).  
+This type embeds [K2HDKC](https://k2hdkc.antpick.ax/indexja.html) as one database(distributed KVS) of [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) and realizes DBaaS.  
+The other is that you can realize **DBaaS (Database as a Service)** by using **K2HDKC DBaaS CLI(Command Line Interface)** on the assumption that you have [OpenStack](https://www.openstack.org/) environment.  
+Together, as **Database as a Service**, it automates the construction and scaling of [K2HDKC](https://k2hdkc.antpick.ax/indexja.html) clusters, data merging, and more.  
 
 [**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/) is built using [Trove](https://wiki.openstack.org/wiki/Trove) and [**k2hdkc**](https://k2hdkc.antpick.ax/), [**k2hr3**](https://k2hr3.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/), etc. published by Yahoo! JAPAN.  
 
 Please refer to the following for details.  
-- **Information aggregation of k2hdkc dbaas** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas)、{{ page.antpickax_icon }}[**Documents**](https://dbaas.k2hdkc.antpick.ax/)
+- **Information aggregation of k2hdkc dbaas** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas) and {{ page.antpickax_icon }}[**Documents**](https://dbaas.k2hdkc.antpick.ax/)
 
 - **Execution environment** - {{ page.antpickax_icon }}[**Building a trial environment**](https://dbaas.k2hdkc.antpick.ax/build.html)
 
 - **Operation description** - {{ page.github_icon }}[**Usage**](https://dbaas.k2hdkc.antpick.ax/usage.html)
+
+- **Command Line Interface(CLI)** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas_cli) and {{ page.antpickax_icon }}[**Usage**](https://dbaas.k2hdkc.antpick.ax/usage_cli.html)
 
 - **Utility - k2hdkc_dbaas_override_conf** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas_override_conf)
 
@@ -90,6 +97,8 @@ Please refer to the following for details.
 - **Information aggregation of k2hr3** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3) and {{ page.antpickax_icon }}[**Documents**](https://k2hr3.antpick.ax/)
 
 - **Web Application** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_app) and {{ page.antpickax_icon }}[**Demonstration**](https://demo.k2hr3.antpick.ax/)
+
+- **Command Line Interface(CLI)** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_cli) and {{ page.antpickax_icon }}[**Usage**](https://k2hr3.antpick.ax/cli.html)
 
 - **REST API** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_api)
 
