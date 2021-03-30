@@ -67,11 +67,11 @@ A very fast and powerful lock library for multithread and multiprocess used in [
 
 [**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/) is a **Database as a Service** that uses [K2HR3](https://k2hr3.antpick.ax/) and works with [OpenStack](https://www.openstack.org/) to build a [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) Cluster for distributed KVS.  
 
-[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/indexja.html) provides **two ways**.  
+[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/) provides **two ways**.  
 One is **DBaaS (Database as a Service)** using [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove), which is a product of [OpenStack](https://www.openstack.org/).  
-This type embeds [K2HDKC](https://k2hdkc.antpick.ax/indexja.html) as one database(distributed KVS) of [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) and realizes DBaaS.  
+This type embeds [K2HDKC](https://k2hdkc.antpick.ax/) as one database(distributed KVS) of [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) and realizes DBaaS.  
 The other is that you can realize **DBaaS (Database as a Service)** by using **K2HDKC DBaaS CLI(Command Line Interface)** on the assumption that you have [OpenStack](https://www.openstack.org/) environment.  
-Together, as **Database as a Service**, it automates the construction and scaling of [K2HDKC](https://k2hdkc.antpick.ax/indexja.html) clusters, data merging, and more.  
+Together, as **Database as a Service**, it automates the construction and scaling of [K2HDKC](https://k2hdkc.antpick.ax/) clusters, data merging, and more.  
 
 [**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/) is built using [Trove](https://wiki.openstack.org/wiki/Trove) and [**k2hdkc**](https://k2hdkc.antpick.ax/), [**k2hr3**](https://k2hr3.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/), etc. published by Yahoo! JAPAN.  
 
