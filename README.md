@@ -23,8 +23,12 @@ Among the created software, we have released software as an [**AntPickax**](http
 The open source codes that the AntPickax product has published includes the following.
 
 #### [K2HDKC DBAAS](https://github.com/yahoojapan/k2hdkc_dbaas)
-The database as a service of K2HDKC has the type provided by Trove(OpenStack component) and the type provided by Command Line Interface.
-- [K2HDKC DBaaS Command Line Interface(CLI)](https://github.com/yahoojapan/k2hdkc_dbaas_cli) - K2HDKC DBaaS Command Line Interface
+K2HDKC DBaaS can work with OpenStack and kubernetes.  
+K2HDKC DBaaS that works with OpenStack has a type built into Trove(OpenStack component) and a type of command line interface.  
+There is also K2HDKC DBaaS provided with a command line interface for the kubernetes environment.  
+- [K2HDKC DBaaS(Trove)](https://github.com/yahoojapan/k2hdkc_dbaas) - K2HDKC DBaaS for Trove(OpenStack component)
+- [K2HDKC DBaaS Command Line Interface(CLI)](https://github.com/yahoojapan/k2hdkc_dbaas_cli) - K2HDKC DBaaS Command Line Interface(OpenStack)
+- [K2HDKC DBaaS on kubernetes Command Line Interface(CLI)](https://github.com/yahoojapan/k2hdkc_dbaas_k8s_cli) - K2HDKC DBaaS on kubernetes Command Line Interface
 - [K2HDKC DBaaS Override Configuration](https://github.com/yahoojapan/k2hdkc_dbaas_override_conf)
 
 #### [K2HR3](https://github.com/yahoojapan/k2hr3)
