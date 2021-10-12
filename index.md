@@ -47,7 +47,7 @@ Among the created software, we have released software as an **AntPickax** produc
 **AntPickax** publishes the following products as open source.
 
 #### [**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/)
-**K2HDKC DBaaS** (Database as a Service for K2HDKC) is a **Database as a Service** that uses [K2HR3](https://k2hr3.antpick.ax/) and works with [OpenStack](https://www.openstack.org/) to build a [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) Cluster for distributed KVS.
+**K2HDKC DBaaS** (Database as a Service for K2HDKC) is a **Database as a Service** that uses [K2HR3](https://k2hr3.antpick.ax/) and works with [OpenStack](https://www.openstack.org/) and [kubernetes](https://kubernetes.io/) to build a [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) Cluster for distributed KVS.
 #### [**K2HR3**](https://k2hr3.antpick.ax/)
 **K2HR3** is an **RBAC**(**R**ole **B**ased **A**ccess **C**ontrol) system that cooperates with **IaaS**(Infrastructure as a Service).
 #### [**K2HDKC**](https://k2hdkc.antpick.ax/)
