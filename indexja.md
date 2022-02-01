@@ -60,38 +60,44 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 # **AntPickax プロダクト**
 
 ## {{ page.title_k2hdkc_dbaas }}
-
 [**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、[K2HR3](https://k2hr3.antpick.ax/indexja.html)を使い、[OpenStack](https://www.openstack.org/) と連動して、分散KVSである [K2HDKC](https://k2hdkc.antpick.ax/indexja.html) の環境を構築する**Database as a Service**です。  
 
-[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、**2つの方法**を提供します。  
+[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、以下の**3つの方法**を提供します。  
 
-一つは、[OpenStack](https://www.openstack.org/) のプロダクトである [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) を使った**DBaaS（Database as a Service）**です。  
-これは、[Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove)のひとつのデータベース（分散KVS）として、[K2HDKC](https://k2hdkc.antpick.ax/indexja.html) を組み込み、DBaaSを実現します。  
+- **K2HDKC DBaaS** with Trove  
+[Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) プラグインを組み込んだ[OpenStack](https://www.openstack.org/)を使った **DBaaS（Database as a Service）**です。  
+[Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove)のひとつのデータベース（分散KVS）として、[K2HDKC](https://k2hdkc.antpick.ax/indexja.html) を組み込み、DBaaSを実現します。  
 
-もう一つは、[OpenStack](https://www.openstack.org/)の環境を持っていることを前提とし、**K2HDKC DBaaS CLI（Command Line Interface）**を使って、**DBaaS（Database as a Service）**が実現できます。
-共に、**Database as a Service**として、[K2HDKC](https://k2hdkc.antpick.ax/indexja.html)クラスターの構築およびスケール、データマージなどを自動化します。
+- **K2HDKC DBaaS CLI**  
+[OpenStack](https://www.openstack.org/)の環境に、**Command Line Interface (CLI)** を使って、**DBaaS（Database as a Service）**を実現します。  
+**K2HDKC DBaaS CLI（Command Line Interface）** として提供され、**Database as a Service**として[K2HDKC](https://k2hdkc.antpick.ax/indexja.html)クラスターの構築およびスケール、データマージなどを自動化します。  
 
-[**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、[Trove](https://wiki.openstack.org/wiki/Trove)および、Yahoo! JAPANが公開している [**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)、[**k2hr3**](https://k2hr3.antpick.ax/indexja.html)、[**chmpx**](https://chmpx.antpick.ax/indexja.html) 等を使って構築されています。
+- **K2HDKC DBaaS on Kubernetes CLI**  
+[kubernetes](https://kubernetes.io/ja/)の環境に、**Command Line Interface (CLI)** を使って、**DBaaS（Database as a Service）**を実現します。  
+**K2HDKC DBaaS on kubernetes CLI（Command Line Interface）** として提供され、**Database as a Service**として[K2HDKC](https://k2hdkc.antpick.ax/indexja.html)クラスターの構築およびスケールなどを自動化します。  
+
+[**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/indexja.html) シリーズは、Yahoo! JAPANが公開している [**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)、[**k2hr3**](https://k2hr3.antpick.ax/indexja.html)、[**chmpx**](https://chmpx.antpick.ax/indexja.html) 等を使って構築されています。  
 
 詳しくは、以下の詳細を参照してください。  
-- **k2hdkc dbaas全体** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas)、{{ page.antpickax_icon }}[**ドキュメント**](https://dbaas.k2hdkc.antpick.ax/indexja.html)
+- **K2HDKC DBaaS** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas)、{{ page.antpickax_icon }}[**ドキュメント**](https://dbaas.k2hdkc.antpick.ax/indexja.html)
 
-- **環境** - {{ page.antpickax_icon }}[**環境構築**](https://dbaas.k2hdkc.antpick.ax/buildja.html)
+- **K2HDKC DBaaS** with Trove - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas)、{{ page.antpickax_icon }}[**ドキュメント**](https://dbaas.k2hdkc.antpick.ax/usage_troveja.html)
 
-- **操作方法** - {{ page.github_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usageja.html)
+- **K2HDKC DBaaS CLI (Command Line Interface)** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas_cli)、{{ page.antpickax_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usage_clija.html)
 
-- **Command Line Interface(CLI)** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas_cli)、{{ page.antpickax_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usage_clija.html)
+- **K2HDKC DBaaS on kubernetes CLI (Command Line Interface)** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas_k8s_cli)、{{ page.antpickax_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usage_k8s_clija.html)
 
-- **ユーティリティ k2hdkc_dbaas_override_conf** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas_override_conf)
+- **K2HDKC DBaaS Override Configuration ユーティリティ** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas_override_conf)  
 
 ## {{ page.title_k2hr3 }}
 [**k2hr3**](https://k2hr3.antpick.ax/indexja.html) (**K2H**dkc based **R**esource and **R**oles and policy **R**ules) は、Yahoo! JAPANオリジナルが公開する **RBAC** (**R**ole **B**ased **A**ccess **C**ontrol) システムのひとつです。  
+
 [**k2hr3**](https://k2hr3.antpick.ax/indexja.html) は、**RBAC** としての機能を、**IaaS**（Infrastructure as a Service）である **OpenStack** と連携して動作し、また **RBAC** を利用する上で便利な **+SERVICE機能** を提供します。  
 
 [**k2hr3**](https://k2hr3.antpick.ax/indexja.html) は、Yahoo! JAPANが公開している [**k2hash**](https://k2hash.antpick.ax/indexja.html)、[**k2htp_dtor**](https://k2htpdtor.antpick.ax/indexja.html)、[**chmpx**](https://chmpx.antpick.ax/indexja.html)、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html) 等を使って構築されています。
+
 [**k2hr3**](https://k2hr3.antpick.ax/indexja.html) は、以下のコンポネーントにより構成されています。  
 
-詳しくは、以下の詳細を参照してください。  
 - **k2hr3全体** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2hr3.antpick.ax/indexja.html)
 
 - **Web Application** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_app)、{{ page.antpickax_icon }}[**デモンストレーション**](https://demo.k2hr3.antpick.ax/indexja.html)
