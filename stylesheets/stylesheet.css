@@ -43,7 +43,12 @@ a {
 
 .to_git_icon {
     padding: 10px 20px 5px 15px;
-    background: url(../images/github-mark-32px.png) #ffffff no-repeat 0% 0%;
+    background-color: rgb(255, 255, 255);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-image: url("../images/github-mark-32px.png");
+    background-size: 1.2rem;
 }
 
 .to_antpickax_banner {
