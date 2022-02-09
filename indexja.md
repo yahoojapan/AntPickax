@@ -62,7 +62,7 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 ## {{ page.title_k2hdkc_dbaas }}
 [**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、[K2HR3](https://k2hr3.antpick.ax/indexja.html)を使い、[OpenStack](https://www.openstack.org/) と連動して、分散KVSである [K2HDKC](https://k2hdkc.antpick.ax/indexja.html) の環境を構築する**Database as a Service**です。  
 
-[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、以下の**3つの方法**を提供します。  
+[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/indexja.html) は、以下の**4つの方法**を提供します。  
 
 - **K2HDKC DBaaS** with Trove  
 [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove) プラグインを組み込んだ[OpenStack](https://www.openstack.org/)を使った **DBaaS（Database as a Service）**です。  
@@ -76,16 +76,22 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 [kubernetes](https://kubernetes.io/ja/)の環境に、**Command Line Interface (CLI)** を使って、**DBaaS（Database as a Service）**を実現します。  
 **K2HDKC DBaaS on kubernetes CLI（Command Line Interface）** として提供され、**Database as a Service**として[K2HDKC](https://k2hdkc.antpick.ax/indexja.html)クラスターの構築およびスケールなどを自動化します。  
 
+- **K2HDKC Helm Chart**  
+[kubernetes](https://kubernetes.io/ja/)の環境に、Kubernetes用パッケージマネージャー [Helm](https://helm.sh/ja/) を使って、**DBaaS（Database as a Service）**を実現します。  
+**K2HDKC Helm Chart** として提供され、**Database as a Service**として[K2HDKC](https://k2hdkc.antpick.ax/indexja.html)クラスターの構築およびスケールなどを自動化します。  
+
 [**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/indexja.html) シリーズは、Yahoo! JAPANが公開している [**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)、[**k2hr3**](https://k2hr3.antpick.ax/indexja.html)、[**chmpx**](https://chmpx.antpick.ax/indexja.html) 等を使って構築されています。  
 
 詳しくは、以下の詳細を参照してください。  
 - **K2HDKC DBaaS** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas)、{{ page.antpickax_icon }}[**ドキュメント**](https://dbaas.k2hdkc.antpick.ax/indexja.html)
 
-- **K2HDKC DBaaS** with Trove - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas)、{{ page.antpickax_icon }}[**ドキュメント**](https://dbaas.k2hdkc.antpick.ax/usage_troveja.html)
+- **K2HDKC DBaaS** with Trove - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas)、{{ page.antpickax_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usage_troveja.html)
 
 - **K2HDKC DBaaS CLI (Command Line Interface)** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas_cli)、{{ page.antpickax_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usage_clija.html)
 
 - **K2HDKC DBaaS on kubernetes CLI (Command Line Interface)** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas_k8s_cli)、{{ page.antpickax_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usage_k8s_clija.html)
+
+- **K2HDKC Helm Chart** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_helm_chart)、{{ page.antpickax_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usage_helm_chartja.html)
 
 - **K2HDKC DBaaS Override Configuration ユーティリティ** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas_override_conf)  
 
@@ -96,7 +102,7 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 
 [**k2hr3**](https://k2hr3.antpick.ax/indexja.html) は、Yahoo! JAPANが公開している [**k2hash**](https://k2hash.antpick.ax/indexja.html)、[**k2htp_dtor**](https://k2htpdtor.antpick.ax/indexja.html)、[**chmpx**](https://chmpx.antpick.ax/indexja.html)、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html) 等を使って構築されています。
 
-[**k2hr3**](https://k2hr3.antpick.ax/indexja.html) は、以下のコンポネーントにより構成されています。  
+[**k2hr3**](https://k2hr3.antpick.ax/indexja.html) は、以下のコンポネーントとツールにより構成されています。  
 
 - **k2hr3全体** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2hr3.antpick.ax/indexja.html)
 
@@ -104,7 +110,9 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 
 - **Command Line Interface(CLI)** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_cli)、{{ page.antpickax_icon }}[**使い方**](https://k2hr3.antpick.ax/clija.html)
 
-- **REST API** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_api)
+- **REST API** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_api)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2hr3.antpick.ax/apija.html)
+
+- **Helm Chart** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_helm_chart)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2hr3.antpick.ax/helm_chartja.html)
 
 - **OpenStack Notification Listener** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hr3_osnl)
 
