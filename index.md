@@ -67,7 +67,7 @@ A very fast and powerful lock library for multithread and multiprocess used in [
 
 [**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/) is a **Database as a Service** that uses [K2HR3](https://k2hr3.antpick.ax/) and works with [OpenStack](https://www.openstack.org/) to build a [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) Cluster for distributed KVS.  
 
-[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/) provides **three ways**.  
+[**K2HDKC DBaaS** (Database as a Service for K2HDKC)](https://dbaas.k2hdkc.antpick.ax/) provides **four ways**.  
 
 - **K2HDKC DBaaS** with Trove  
 This is **DBaaS (Database as a Service)** using [Trove(Trove is Database as a Service for OpenStack)](https://wiki.openstack.org/wiki/Trove), which is a product of [OpenStack](https://www.openstack.org/).  
@@ -81,16 +81,22 @@ Delivered as a **K2HDKC DBaaS CLI (Command Line Interface)**, it automates the c
 Realize **DBaaS (Database as a Service)** by using **Command Line Interface (CLI)** for [kubernetes](https://kubernetes.io/).  
 Delivered as **K2HDKC DBaaS on kubernetes CLI (Command Line Interface)**, it automates the construction and scaling of [K2HDKC](https://k2hdkc.antpick.ax/index.html) clusters as **Database as a Service**.  
 
+- **K2HDKC Helm Chart**  
+Implement **DBaaS (Database as a Service)** using [Helm(The package manager for Kubernetes)](https://helm.sh/) for [kubernetes](https://kubernetes.io/).  
+Delivered as **K2HDKC Helm Chart**, it automates the construction and scaling of [K2HDKC](https://k2hdkc.antpick.ax/index.html) clusters as **Database as a Service**.  
+
 [**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/) is built using [Trove](https://wiki.openstack.org/wiki/Trove) and [**k2hdkc**](https://k2hdkc.antpick.ax/), [**k2hr3**](https://k2hr3.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/), etc. published by Yahoo! JAPAN.  
 
 Please refer to the following for details.  
 - **Information aggregation of K2HDKC DBaaS** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas) and {{ page.antpickax_icon }}[**Documents**](https://dbaas.k2hdkc.antpick.ax/)
 
-- **K2HDKC DBaaS** with Trove - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas) and {{ page.antpickax_icon }}[**Documents**](https://dbaas.k2hdkc.antpick.ax/usage_trove.html)
+- **K2HDKC DBaaS** with Trove - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas) and {{ page.antpickax_icon }}[**Usage**](https://dbaas.k2hdkc.antpick.ax/usage_trove.html)
 
 - **K2HDKC DBaaS CLI**(Command Line Interface) - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas_cli) and {{ page.antpickax_icon }}[**Usage**](https://dbaas.k2hdkc.antpick.ax/usage_cli.html)
 
 - **K2HDKC DBaaS on kubernetes CLI**(Command Line Interface) - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas_k8s_cli) and {{ page.antpickax_icon }}[**Usage**](https://dbaas.k2hdkc.antpick.ax/usage_k8s_cli.html)
+
+- **K2HDKC Helm Chart** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_helm_chart) and {{ page.antpickax_icon }}[**Usage**](https://dbaas.k2hdkc.antpick.ax/usage_helm_chart.html)
 
 - **Utility - K2HDKC DBaaS Override Configuration** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas_override_conf)
 
@@ -101,7 +107,7 @@ Please refer to the following for details.
 
 [**k2hr3**](https://k2hr3.antpick.ax/) gathers common management information for the cloud, and is built [**k2hash**](https://k2hash.antpick.ax/), [**k2htp_dtor**](https://k2htpdtor.antpick.ax/), [**chmpx**](https://chmpx.antpick.ax/) and [**k2hdkc**](https://k2hdkc.antpick.ax/) components.  
 
-[**k2hr3**](https://k2hr3.antpick.ax/) consists of the following components.  
+[**k2hr3**](https://k2hr3.antpick.ax/) consists of the following components and tools.  
 
 - **Information aggregation of k2hr3** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3) and {{ page.antpickax_icon }}[**Documents**](https://k2hr3.antpick.ax/)
 
@@ -109,7 +115,9 @@ Please refer to the following for details.
 
 - **Command Line Interface(CLI)** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_cli) and {{ page.antpickax_icon }}[**Usage**](https://k2hr3.antpick.ax/cli.html)
 
-- **REST API** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_api)
+- **REST API** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_api) and {{ page.antpickax_icon }}[**Demonstration**](https://k2hr3.antpick.ax/api.html)
+
+- **Helm Chart** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_helm_chart) and {{ page.antpickax_icon }}[**Documents**](https://k2hr3.antpick.ax/helm_chart.html)
 
 - **OpenStack Notification Listener** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hr3_osnl)
 
