@@ -1,6 +1,5 @@
 AntPickax
 ---------
-
 [**AntPickax**](https://antpick.ax/) includes open source software products which are necessary for Internet services in Yahoo! JAPAN. It includes basic libraries, components and systems.
 
 [**AntPickax**](https://antpick.ax/) is a series of a challenging product that made it easy to solve complicated problems. We hope [**AntPickax**](https://antpick.ax/) products are widely used and create next innovations!
@@ -24,11 +23,11 @@ The open source codes that the AntPickax product has published includes the foll
 
 #### [K2HDKC DBAAS](https://github.com/yahoojapan/k2hdkc_dbaas)
 K2HDKC DBaaS can work with OpenStack and kubernetes.  
-K2HDKC DBaaS that works with OpenStack has a type built into Trove(OpenStack component) and a type of command line interface.  
-There is also K2HDKC DBaaS provided with a command line interface for the kubernetes environment.  
+K2HDKC DBaaS can be built by some tools which are OpenStack with Trove plugin(GUI) / OpenStack(CLI) / kubernetes(CLI) / Helm(CLI).  
 - [K2HDKC DBaaS(Trove)](https://github.com/yahoojapan/k2hdkc_dbaas) - K2HDKC DBaaS for Trove(OpenStack component)
 - [K2HDKC DBaaS Command Line Interface(CLI)](https://github.com/yahoojapan/k2hdkc_dbaas_cli) - K2HDKC DBaaS Command Line Interface(OpenStack)
 - [K2HDKC DBaaS on kubernetes Command Line Interface(CLI)](https://github.com/yahoojapan/k2hdkc_dbaas_k8s_cli) - K2HDKC DBaaS on kubernetes Command Line Interface
+- [K2HDKC Helm Chart](https://github.com/yahoojapan/k2hdkc_helm_chart) - Helm Chart for K2HDKC DBaaS on kubernetes
 - [K2HDKC DBaaS Override Configuration](https://github.com/yahoojapan/k2hdkc_dbaas_override_conf)
 
 #### [K2HR3](https://github.com/yahoojapan/k2hr3)
@@ -36,6 +35,7 @@ RBAC system(K2Hdkc based Resource and Roles and policy Rules).
 - [K2HR3 REST API](https://github.com/yahoojapan/k2hr3_api) - K2HR3 Backend server
 - [K2HR3 Web Appication](https://github.com/yahoojapan/k2hr3_app) - K2HR3 GUI Frontend
 - [K2HR3 Command Line Interface(CLI)](https://github.com/yahoojapan/k2hr3_cli) - K2HR3 Command Line Interface
+- [K2HR3 Helm Chart](https://github.com/yahoojapan/k2hr3_helm_chart) - Helm Chart for K2HR3 on kubernetes
 - [K2HR3 Utilities](https://github.com/yahoojapan/k2hr3_utils)
 - [K2HR3 OpenStack Notification Listener](https://github.com/yahoojapan/k2hr3_osnl)
 - [K2HR3 Container Registration Sidecar](https://github.com/yahoojapan/k2hr3_sidecar)
