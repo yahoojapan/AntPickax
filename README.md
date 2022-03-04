@@ -46,6 +46,7 @@ High-speed autoscaleable distributed KVS cluster system created based on k2hash 
 - [K2HDKC nodejs addon](https://github.com/yahoojapan/k2hdkc_nodejs) - Node.js addon library
 - [K2HDKC java driver](https://github.com/yahoojapan/k2hdkc_java) - Java driver
 - [K2HDKC golang](https://github.com/yahoojapan/k2hdkc_go) - golang library
+- [K2HDKC Python](https://github.com/yahoojapan/k2hdkc_python) - Python library
 
 #### [K2HFTFUSE](https://github.com/yahoojapan/k2hftfuse)
 A component based on FUSE library which can transfer files, texts, logs at high speed, relay transfer, and aggregate.
@@ -59,6 +60,8 @@ Key Value Store(KVS) library featuring high speed, large capacity and many funct
 - [K2HASH nodejs addon](https://github.com/yahoojapan/k2hash_nodejs) - Node.js addon library
 - [K2HASH java driver](https://github.com/yahoojapan/k2hash_java) - Java driver
 - [K2HASH golang](https://github.com/yahoojapan/k2hash_go) - golang library
+- [K2HASH phpext](https://github.com/yahoojapan/k2hash_phpext) - PHP extension library
+- [K2HASH python](https://github.com/yahoojapan/k2hash_python) - Python library
 - [K2HTPDTOR](https://github.com/yahoojapan/k2htp_dtor) - Standard plug-in for K2HASH Transaction processing
 - [K2HTPMDTOR](https://github.com/yahoojapan/k2htp_mdtor) Multiple plug-in for K2HASH Transaction processing
 
@@ -73,12 +76,17 @@ A fast and secure exclusive control library used by k2hash, chmpx.
 - [k2hdkc](https://k2hdkc.antpick.ax/)
 - [k2hdkc nodejs addon](https://nodejs.k2hdkc.antpick.ax/)
 - [k2hdkc java driver](https://java.k2hdkc.antpick.ax/)
+- [k2hdkc go](https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc)
+- [k2hdkc python](https://k2hdkc-python.readthedocs.io/)
 - [k2hftfuse](https://k2hftfuse.antpick.ax/)
 - [chmpx](https://chmpx.antpick.ax/)
 - [chmpx nodejs addon](https://nodejs.chmpx.antpick.ax/)
 - [k2hash](https://k2hash.antpick.ax/)
 - [k2hash nodejs addon](https://nodejs.k2hash.antpick.ax/)
 - [k2hash java driver](https://java.k2hash.antpick.ax/)
+- [k2hash golang](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash)
+- [k2hash phpext](https://php.k2hash.antpick.ax/)
+- [k2hash python](https://k2hash-python.readthedocs.io/)
 - [k2htpdtor](https://k2htpdtor.antpick.ax/)
 - [k2htpmdtor](https://k2htpmdtor.antpick.ax/)
 - [fullock](https://fullock.antpick.ax/)
