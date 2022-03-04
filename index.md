@@ -11,10 +11,13 @@ title_k2hdkc: <a class="to_antpickax_banner" href="https://k2hdkc.antpick.ax/">k
 title_k2hdkc_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hdkc.antpick.ax/">k2hdkc nodejs addon</a>
 title_k2hdkc_java: <a class="to_antpickax_banner" href="https://java.k2hdkc.antpick.ax/">java driver for k2hdkc</a>
 title_k2hdkc_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc">k2hdkc golang</a>
+title_k2hdkc_python: <a class="to_antpickax_banner" href="https://k2hdkc-python.readthedocs.io/">k2hdkc python</a>
 title_k2hftfuse: <a class="to_antpickax_banner" href="https://k2hftfuse.antpick.ax/">k2hftfuse</a>
 title_k2hash: <a class="to_antpickax_banner" href="https://k2hash.antpick.ax/">k2hash</a>
 title_k2hash_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hash.antpick.ax/">k2hash nodejs addon</a>
 title_k2hash_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash">k2hash golang</a>
+title_k2hash_python: <a class="to_antpickax_banner" href="https://k2hash-python.readthedocs.io/">k2hash python</a>
+title_k2hash_phpext: <a class="to_antpickax_banner" href="https://php.k2hash.antpick.ax/">k2hash phpext</a>
 title_chmpx: <a class="to_antpickax_banner" href="https://chmpx.antpick.ax/">chmpx</a>
 title_chmpx_nodejs: <a class="to_antpickax_banner" href="https://nodejs.chmpx.antpick.ax/">chmpx nodejs addon</a>
 title_k2htpdtor: <a class="to_antpickax_banner" href="https://k2htpdtor.antpick.ax/">k2htp_dtor</a>
@@ -169,6 +172,13 @@ You can use this library to implement [**k2hdkc**](https://k2hdkc.antpick.ax/) s
 
 For details, see the {{ page.github_icon }}[**Code on GitHub**](https://github.com/yahoojapan/k2hdkc_go), {{ page.antpickax_icon }}[**Documents**](https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc).
 
+## {{ page.title_k2hdkc_python }}
+[**k2hdkc python**](https://k2hdkc-python.readthedocs.io/en/latest/) (**K2HDKC** python - k2hash based distributed kvs cluster) is [**k2hdkc**](https://k2hdkc.antpick.ax/)'s Python language client library.  
+You can use this library to implement [**k2hdkc**](https://k2hdkc.antpick.ax/) slave-side client applications in Python language.  
+[**k2hdkc python**](https://k2hdkc-python.readthedocs.io/en/latest/) provides all the features and features required for the slave side client of the distributed KVS of [**k2hdkc**](https://k2hdkc.antpick.ax/).  
+
+For details, see the {{ page.github_icon }}[**Code on GitHub**](https://github.com/yahoojapan/k2hdkc_python), {{ page.antpickax_icon }}[**Documents**](https://k2hdkc-python.readthedocs.io/en/latest/).
+
 ## {{ page.title_k2hftfuse }}
 [**k2hftfuse**](https://k2hftfuse.antpick.ax/)(**k2h**ash **F**ile **T**ransaction by **FUSE** based file system) is [FUSE (Filesystem in Userspace)](https://github.com/libfuse/libfuse) is a file/message transfer system using the user space mounting function.  
 
@@ -259,11 +269,25 @@ Using this library, you can operate [**k2hash**](https://k2hash.antpick.ax/)'s d
 For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hash_nodejs), {{ page.antpickax_icon }}[**Documents**](https://nodejs.k2hash.antpick.ax/).
 
 ## {{ page.title_k2hash_go }}
-[**k2hash golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash) (**K2HASH** golang - NoSQL Key Value Store(KVS) nodejs library) is [**k2hash**](https://k2hash.antpick.ax/)'s Go language client library.  
+[**k2hash golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash) (**K2HASH** golang - NoSQL Key Value Store(KVS) Go library) is [**k2hash**](https://k2hash.antpick.ax/)'s Go language client library.  
 You can use this library to implement [**k2hash**](https://k2hash.antpick.ax/) slave-side client applications in Go language.  
 [**k2hash golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash) provides all the functions and features of [**k2hash**](https://k2hash.antpick.ax/).  
 
 For details, see the {{ page.github_icon }}[**Code on GitHub**](https://github.com/yahoojapan/k2hash_go), {{ page.antpickax_icon }}[**Documents**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash).
+
+## {{ page.title_k2hash_phpext }}
+[**k2hash phpext**](https://php.k2hash.antpick.ax/)（**K2HASH** phpext - NoSQL Key Value Store(KVS) php extension library) is a php extension library of [**k2hash**](https://k2hash.antpick.ax/).  
+Using this library, you can operate [**k2hash**](https://k2hash.antpick.ax/)'s data from your PHP application.  
+[**k2hash phpext**](https://php.k2hash.antpick.ax/) provides all functions and features of [**k2hash**](https://k2hash.antpick.ax/).  
+
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hash_phpext), {{ page.antpickax_icon }}[**Documents**](https://php.k2hash.antpick.ax/).
+
+## {{ page.title_k2hash_python }}
+[**k2hash python**](https://k2hash-python.readthedocs.io/en/latest/)（**K2HASH** python - NoSQL Key Value Store(KVS) python library) is a python library of [**k2hash**](https://k2hash.antpick.ax/).  
+Using this library, you can operate [**k2hash**](https://k2hash.antpick.ax/)'s data from your Python application.  
+[**k2hash python**](https://k2hash-python.readthedocs.io/en/latest/) provides all functions and features of [**k2hash**](https://k2hash.antpick.ax/).  
+
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hash_python), {{ page.antpickax_icon }}[**Documents**](https://k2hash-python.readthedocs.io/en/latest/).
 
 ## {{ page.title_k2htpdtor }}
 [**k2htp_dtor**](https://k2htpdtor.antpick.ax/)(**k2h**ash **T**ransaction **P**lugin **D**istributed **T**ransaction **O**f **R** epeater) easily duplicates the [**k2hash**](https://k2hash.antpick.ax/) data by transferring the transaction data of [**k2hash**](https://k2hash.antpick.ax/) to another host using [**chmpx**](https://chmpx.antpick.ax/).  

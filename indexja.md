@@ -11,10 +11,13 @@ title_k2hdkc: <a class="to_antpickax_banner" href="https://k2hdkc.antpick.ax/ind
 title_k2hdkc_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hdkc.antpick.ax/indexja.html">k2hdkc nodejs addon</a>
 title_k2hdkc_java: <a class="to_antpickax_banner" href="https://java.k2hdkc.antpick.ax/">java driver for k2hdkc</a>
 title_k2hdkc_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc">k2hdkc golang</a>
+title_k2hdkc_python: <a class="to_antpickax_banner" href="https://k2hdkc-python.readthedocs.io/">k2hdkc python</a>
 title_k2hftfuse: <a class="to_antpickax_banner" href="https://k2hftfuse.antpick.ax/indexja.html">k2hftfuse</a>
 title_k2hash: <a class="to_antpickax_banner" href="https://k2hash.antpick.ax/indexja.html">k2hash</a>
 title_k2hash_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hash.antpick.ax/indexja.html">k2hash nodejs addon</a>
 title_k2hash_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash">k2hash golang</a>
+title_k2hash_python: <a class="to_antpickax_banner" href="https://k2hash-python.readthedocs.io/">k2hash python</a>
+title_k2hash_phpext: <a class="to_antpickax_banner" href="https://php.k2hash.antpick.ax/">k2hash phpext</a>
 title_chmpx: <a class="to_antpickax_banner" href="https://chmpx.antpick.ax/indexja.html">chmpx</a>
 title_chmpx_nodejs: <a class="to_antpickax_banner" href="https://nodejs.chmpx.antpick.ax/indexja.html">chmpx nodejs addon</a>
 title_k2htpdtor: <a class="to_antpickax_banner" href="https://k2htpdtor.antpick.ax/indexja.html">k2htp_dtor</a>
@@ -164,6 +167,13 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 
 詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_go)、{{ page.antpickax_icon }}[**ドキュメント**](https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc) を参照してください。
 
+## {{ page.title_k2hdkc_python }}
+[**k2hdkc python**](https://k2hdkc-python.readthedocs.io/ja/latest/)（**K2HDKC** python - k2hash based distributed kvs cluster)は、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のPython言語クライアントライブラリです。  
+このライブラリを利用して、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)のスレーブ側クライアントアプリケーションを、Python言語で実装できます。  
+[**k2hdkc python**](https://k2hdkc-python.readthedocs.io/ja/latest/)は、[**k2hdkc**](https://k2hdkc.antpick.ax/indexja.html)の分散KVSのスレーブ側クライアントに必要なすべての機能・特徴を提供します。  
+
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_python)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2hdkc-python.readthedocs.io/ja/latest/) を参照してください。
+
 ## {{ page.title_k2hftfuse }}
 [**k2hftfuse**](https://k2hftfuse.antpick.ax/indexja.html)（**k2h**ash **F**ile **T**ransaction by **FUSE** based file system）とは、[FUSE（Filesystem in Userspace）](https://github.com/libfuse/libfuse) によるユーザースペースでのマウント機能を利用したファイル/メッセージ転送システムです。  
 
@@ -254,11 +264,25 @@ SSLでの通信をサポートしています。
 詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hash_nodejs)、{{ page.antpickax_icon }}[**ドキュメント**](https://nodejs.k2hash.antpick.ax/indexja.html) を参照してください。
 
 ## {{ page.title_k2hash_go }}
-[**k2hash golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash)（**K2HASH** golang - NoSQL Key Value Store(KVS) nodejs library)は、[**k2hash**](https://k2hash.antpick.ax/indexja.html)のGo言語クライアントライブラリです。  
+[**k2hash golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash)（**K2HASH** golang - NoSQL Key Value Store(KVS) Go library)は、[**k2hash**](https://k2hash.antpick.ax/indexja.html)のGo言語クライアントライブラリです。  
 このライブラリを利用して、[**k2hash**](https://k2hash.antpick.ax/indexja.html)を操作するプログラムをGo言語で実装できます。  
 [**k2hash golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash)は、[**k2hash**](https://k2hash.antpick.ax/indexja.html)のすべての機能・特徴を提供します。  
 
 詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hash_go)、{{ page.antpickax_icon }}[**ドキュメント**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash) を参照してください。
+
+## {{ page.title_k2hash_phpext }}
+[**k2hash phpext**](https://php.k2hash.antpick.ax/indexja.html)（**K2HASH** PHP拡張 - NoSQL Key Value Store(KVS) PHP拡張ライブラリ)は、[**k2hash**](https://k2hash.antpick.ax/indexja.html)のPHP拡張ライブラリです。  
+このライブラリを利用して、[**k2hash**](https://k2hash.antpick.ax/indexja.html)をPHPアプリケーションから操作できます。  
+[**k2hash phpext**](https://php.k2hash.antpick.ax/indexja.html)は、[**k2hash**](https://k2hash.antpick.ax/indexja.html)のすべての機能・特徴を提供します。  
+
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hash_phpext)、{{ page.antpickax_icon }}[**ドキュメント**](https://php.k2hash.antpick.ax/indexja.html) を参照してください。
+
+## {{ page.title_k2hash_python }}
+[**k2hash python**](https://k2hash-python.readthedocs.io/ja/latest/)（**K2HASH** python - NoSQL Key Value Store(KVS) Pythonライブラリ)は、[**k2hash**](https://k2hash.antpick.ax/indexja.html)のPython言語クライアントライブラリです。  
+このライブラリを利用して、[**k2hash**](https://k2hash.antpick.ax/indexja.html)を操作するプログラムをPython言語で実装できます。  
+[**k2hash python**](https://k2hash-python.readthedocs.io/ja/latest/)は、[**k2hash**](https://k2hash.antpick.ax/indexja.html)のすべての機能・特徴を提供します。  
+
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hash_python)、{{ page.antpickax_icon }}[**ドキュメント**](https://k2hash-python.readthedocs.io/ja/latest/) を参照してください。
 
 ## {{ page.title_k2htpdtor }}
 [**k2htp_dtor**](https://k2htpdtor.antpick.ax/indexja.html)（**k2h**ash **T**ransaction **P**lugin **D**istributed **T**ransaction **O**f **R**epeater）は、[**k2hash**](https://k2hash.antpick.ax/indexja.html) のトランザクションデータを [**chmpx**](https://chmpx.antpick.ax/indexja.html) を利用して他ホストへ転送を行い、[**k2hash**](https://k2hash.antpick.ax/indexja.html)データの複製を容易に実現します。  
