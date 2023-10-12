@@ -44,6 +44,7 @@ RBAC system(K2Hdkc based Resource and Roles and policy Rules).
 #### [K2HDKC](https://github.com/yahoojapan/k2hdkc)
 High-speed autoscaleable distributed KVS cluster system created based on k2hash and chmpx.
 - [K2HDKC nodejs addon](https://github.com/yahoojapan/k2hdkc_nodejs) - Node.js addon library
+- [K2HDKC phpext](https://github.com/yahoojapan/k2hdkc_phpext) - PHP extension library
 - [K2HDKC java driver](https://github.com/yahoojapan/k2hdkc_java) - Java driver
 - [K2HDKC golang](https://github.com/yahoojapan/k2hdkc_go) - golang library
 - [K2HDKC Python](https://github.com/yahoojapan/k2hdkc_python) - Python library
@@ -54,6 +55,7 @@ A component based on FUSE library which can transfer files, texts, logs at high 
 #### [CHMPX](https://github.com/yahoojapan/chmpx)
 High-speed communication middleware capable of constructing a cluster.
 - [CHMPX nodejs addon](https://github.com/yahoojapan/chmpx_nodejs) - Node.js addon library
+- [CHMPX phpext](https://github.com/yahoojapan/chmpx_phpext) - PHP extension library
 
 #### [K2HASH](https://github.com/yahoojapan/k2hash)
 Key Value Store(KVS) library featuring high speed, large capacity and many functions.
@@ -75,12 +77,14 @@ A fast and secure exclusive control library used by k2hash, chmpx.
 - [k2hr3 demonstration](https://demo.k2hr3.antpick.ax/)
 - [k2hdkc](https://k2hdkc.antpick.ax/)
 - [k2hdkc nodejs addon](https://nodejs.k2hdkc.antpick.ax/)
+- [k2hdkc phpext](https://php.k2hdkc.antpick.ax/)
 - [k2hdkc java driver](https://java.k2hdkc.antpick.ax/)
 - [k2hdkc go](https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc)
 - [k2hdkc python](https://k2hdkc-python.readthedocs.io/)
 - [k2hftfuse](https://k2hftfuse.antpick.ax/)
 - [chmpx](https://chmpx.antpick.ax/)
 - [chmpx nodejs addon](https://nodejs.chmpx.antpick.ax/)
+- [chmpx phpext](https://php.chmpx.antpick.ax/)
 - [k2hash](https://k2hash.antpick.ax/)
 - [k2hash nodejs addon](https://nodejs.k2hash.antpick.ax/)
 - [k2hash java driver](https://java.k2hash.antpick.ax/)
