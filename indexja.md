@@ -9,17 +9,20 @@ title_k2hdkc_dbaas: <a class="to_antpickax_banner" href="https://dbaas.k2hdkc.an
 title_k2hr3: <a class="to_antpickax_banner" href="https://k2hr3.antpick.ax/indexja.html">K2HR3</a>
 title_k2hdkc: <a class="to_antpickax_banner" href="https://k2hdkc.antpick.ax/indexja.html">K2HDKC</a>
 title_k2hdkc_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hdkc.antpick.ax/indexja.html">K2HDKC nodejs addon</a>
+title_k2hdkc_phpext: <a class="to_antpickax_banner" href="https://php.k2hdkc.antpick.ax/indexja.html">K2HDKC phpext</a>
 title_k2hdkc_java: <a class="to_antpickax_banner" href="https://java.k2hdkc.antpick.ax/">K2HDKC java driver</a>
 title_k2hdkc_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc">K2HDKC golang</a>
 title_k2hdkc_python: <a class="to_antpickax_banner" href="https://k2hdkc-python.readthedocs.io/">K2HDKC python</a>
 title_k2hftfuse: <a class="to_antpickax_banner" href="https://k2hftfuse.antpick.ax/indexja.html">K2HFTFUSE</a>
 title_k2hash: <a class="to_antpickax_banner" href="https://k2hash.antpick.ax/indexja.html">K2HASH</a>
 title_k2hash_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hash.antpick.ax/indexja.html">K2HASH nodejs addon</a>
+title_k2hash_java: <a class="to_antpickax_banner" href="https://java.k2hash.antpick.ax/">K2HASH java driver</a>
 title_k2hash_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash">K2HASH golang</a>
 title_k2hash_python: <a class="to_antpickax_banner" href="https://k2hash-python.readthedocs.io/">K2HASH python</a>
-title_k2hash_phpext: <a class="to_antpickax_banner" href="https://php.k2hash.antpick.ax/">K2HASH phpext</a>
+title_k2hash_phpext: <a class="to_antpickax_banner" href="https://php.k2hash.antpick.ax/indexja.html">K2HASH phpext</a>
 title_chmpx: <a class="to_antpickax_banner" href="https://chmpx.antpick.ax/indexja.html">CHMPX</a>
 title_chmpx_nodejs: <a class="to_antpickax_banner" href="https://nodejs.chmpx.antpick.ax/indexja.html">CHMPX nodejs addon</a>
+title_chmpx_phpext: <a class="to_antpickax_banner" href="https://php.chmpx.antpick.ax/indexja.html">CHMPX phpext</a>
 title_k2htpdtor: <a class="to_antpickax_banner" href="https://k2htpdtor.antpick.ax/indexja.html">K2HTP_DTOR</a>
 title_k2htpmdtor: <a class="to_antpickax_banner" href="https://k2htpmdtor.antpick.ax/indexja.html">K2HTP_MDTOR</a>
 title_fullock: <a class="to_antpickax_banner" href="https://fullock.antpick.ax/indexja.html">FULLOCK</a>
@@ -154,6 +157,13 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 
 詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_nodejs)、{{ page.antpickax_icon }}[**ドキュメント**](https://nodejs.k2hdkc.antpick.ax/indexja.html) を参照してください。
 
+## {{ page.title_k2hdkc_phpext }}
+[**K2HDKC phpext**](https://php.k2hdkc.antpick.ax/indexja.html)（**K2HDKC** PHP拡張 - **K2H**ash based **D**istributed **K**vs **C**luster)は、[**K2HDKC**](https://k2hdkc.antpick.ax/indexja.html)のPHP拡張ライブラリです。  
+このライブラリを利用して、[**K2HDKC**](https://k2hdkc.antpick.ax/indexja.html)のスレーブ側クライアントアプリケーションを、PHPアプリケーションで実装することができます。  
+[**K2HDKC phpext**](https://php.k2hdkc.antpick.ax/indexja.html)は、[**K2HDKC**](https://k2hdkc.antpick.ax/indexja.html)のすべての機能・特徴を提供します。  
+
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_phpext)、{{ page.antpickax_icon }}[**ドキュメント**](https://php.k2hdkc.antpick.ax/indexja.html) を参照してください。
+
 ## {{ page.title_k2hdkc_java }}
 [**K2HDKC Java ドライバ**](https://java.k2hdkc.antpick.ax/index.html)（**K2HDKC** Java ドライバ)は、[**K2HDKC**](https://k2hdkc.antpick.ax/indexja.html)のJavaクライアントライブラリです。  
 このライブラリを利用して、[**K2HDKC**](https://k2hdkc.antpick.ax/indexja.html)のスレーブ側クライアントアプリケーションを、Javaで実装することができます。  
@@ -222,6 +232,13 @@ SSLでの通信をサポートしています。
 
 詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/chmpx_nodejs)、{{ page.antpickax_icon }}[**ドキュメント**](https://nodejs.chmpx.antpick.ax/indexja.html) を参照してください。
 
+## {{ page.title_chmpx_phpext }}
+[**CHMPX phpext**](https://php.chmpx.antpick.ax/indexja.html)（**CHMPX** PHP拡張 - Consistent Hashing Mq inProcess data eXchange)は、[**CHMPX**](https://chmpx.antpick.ax/indexja.html)のPHP拡張ライブラリです。  
+このライブラリを利用して、[**CHMPX**](https://chmpx.antpick.ax/indexja.html) を使った通信プログラムのサーバ側、スレーブ側の両方をPHPアプリケーションから操作できます。  
+[**CHMPX phpext**](https://php.chmpx.antpick.ax/indexja.html)は、[**CHMPX**](https://chmpx.antpick.ax/indexja.html)のすべての機能・特徴を提供します。  
+
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/chmpx_phpext)、{{ page.antpickax_icon }}[**ドキュメント**](https://php.chmpx.antpick.ax/indexja.html) を参照してください。
+
 ## {{ page.title_k2hash }}
 [**K2HASH**](https://k2hash.antpick.ax/indexja.html)は、NoSQL Key Value Store（KVS）libraryです。  
 [**K2HASH**](https://k2hash.antpick.ax/indexja.html)は、基本的なKVSの機能と、以下に示す独自の特徴を備えています。
@@ -264,6 +281,13 @@ SSLでの通信をサポートしています。
 
 詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hash_nodejs)、{{ page.antpickax_icon }}[**ドキュメント**](https://nodejs.k2hash.antpick.ax/indexja.html) を参照してください。
 
+## {{ page.title_k2hash_java }}
+[**K2HASH Java ドライバ**](https://java.k2hash.antpick.ax/index.html)（**K2HASH** Java ドライバ)は、[**K2HASH**](https://k2hash.antpick.ax/indexja.html)のJavaクライアントライブラリです。  
+このライブラリを利用して、[**K2HASH**](https://k2hash.antpick.ax/indexja.html)のスレーブ側クライアントアプリケーションを、Javaで実装することができます。  
+[**K2HASH Java ドライバ**](https://java.k2hash.antpick.ax/index.html)は、[**K2HASH**](https://k2hash.antpick.ax/indexja.html)の分散KVSのスレーブ側クライアントに必要なすべての機能・特徴を提供します。  
+
+詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hash_java)、{{ page.antpickax_icon }}[**プロジェクトのドキュメント**](https://java.k2hash.antpick.ax/index.html) を参照してください。
+
 ## {{ page.title_k2hash_go }}
 [**K2HASH golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash)（**K2HASH** golang - NoSQL Key Value Store(KVS) Go library)は、[**K2HASH**](https://k2hash.antpick.ax/indexja.html)のGo言語クライアントライブラリです。  
 このライブラリを利用して、[**K2HASH**](https://k2hash.antpick.ax/indexja.html)を操作するプログラムをGo言語で実装できます。  
@@ -272,7 +296,7 @@ SSLでの通信をサポートしています。
 詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hash_go)、{{ page.antpickax_icon }}[**ドキュメント**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash) を参照してください。
 
 ## {{ page.title_k2hash_phpext }}
-[**K2HASH phpext**](https://php.k2hash.antpick.ax/indexja.html)（**K2HASH** PHP拡張 - NoSQL Key Value Store(KVS) PHP拡張ライブラリ)は、[**K2HASH**](https://k2hash.antpick.ax/indexja.html)のPHP拡張ライブラリです。  
+[**K2HASH phpext**](https://php.k2hash.antpick.ax/indexja.html)（**K2HASH** PHP拡張 - NoSQL Key Value Store(KVS))は、[**K2HASH**](https://k2hash.antpick.ax/indexja.html)のPHP拡張ライブラリです。  
 このライブラリを利用して、[**K2HASH**](https://k2hash.antpick.ax/indexja.html)をPHPアプリケーションから操作できます。  
 [**K2HASH phpext**](https://php.k2hash.antpick.ax/indexja.html)は、[**K2HASH**](https://k2hash.antpick.ax/indexja.html)のすべての機能・特徴を提供します。  
 

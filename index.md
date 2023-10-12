@@ -9,17 +9,20 @@ title_k2hdkc_dbaas: <a class="to_antpickax_banner" href="https://dbaas.k2hdkc.an
 title_k2hr3: <a class="to_antpickax_banner" href="https://k2hr3.antpick.ax/">K2HR3</a>
 title_k2hdkc: <a class="to_antpickax_banner" href="https://k2hdkc.antpick.ax/">K2HDKC</a>
 title_k2hdkc_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hdkc.antpick.ax/">K2HDKC nodejs addon</a>
+title_k2hdkc_phpext: <a class="to_antpickax_banner" href="https://php.k2hdkc.antpick.ax/">K2HDKC phpext</a>
 title_k2hdkc_java: <a class="to_antpickax_banner" href="https://java.k2hdkc.antpick.ax/">K2HDKC java driver</a>
 title_k2hdkc_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc">K2HDKC golang</a>
 title_k2hdkc_python: <a class="to_antpickax_banner" href="https://k2hdkc-python.readthedocs.io/">K2HDKC python</a>
 title_k2hftfuse: <a class="to_antpickax_banner" href="https://k2hftfuse.antpick.ax/">K2HFTFUSE</a>
 title_k2hash: <a class="to_antpickax_banner" href="https://k2hash.antpick.ax/">K2HASH</a>
 title_k2hash_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hash.antpick.ax/">K2HASH nodejs addon</a>
+title_k2hash_java: <a class="to_antpickax_banner" href="https://java.k2hash.antpick.ax/">K2HASH java driver</a>
 title_k2hash_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash">K2HASH golang</a>
 title_k2hash_python: <a class="to_antpickax_banner" href="https://k2hash-python.readthedocs.io/">K2HASH python</a>
 title_k2hash_phpext: <a class="to_antpickax_banner" href="https://php.k2hash.antpick.ax/">K2HASH phpext</a>
 title_chmpx: <a class="to_antpickax_banner" href="https://chmpx.antpick.ax/">CHMPX</a>
 title_chmpx_nodejs: <a class="to_antpickax_banner" href="https://nodejs.chmpx.antpick.ax/">CHMPX nodejs addon</a>
+title_chmpx_phpext: <a class="to_antpickax_banner" href="https://php.chmpx.antpick.ax/">CHMPX phpext</a>
 title_k2htpdtor: <a class="to_antpickax_banner" href="https://k2htpdtor.antpick.ax/">K2HTP_DTOR</a>
 title_k2htpmdtor: <a class="to_antpickax_banner" href="https://k2htpmdtor.antpick.ax/">K2HTP_MDTOR</a>
 title_fullock: <a class="to_antpickax_banner" href="https://fullock.antpick.ax/">FULLOCK</a>
@@ -159,6 +162,13 @@ Using this library, [**K2HDKC**](https://k2hdkc.antpick.ax/)'s slave side client
 
 For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_nodejs), {{ page.antpickax_icon }}[**Documents**](https://nodejs.k2hdkc.antpick.ax/).
 
+## {{ page.title_k2hdkc_phpext }}
+[**K2HDKC phpext**](https://php.k2hdkc.antpick.ax/)（**K2HDKC** phpext - Consistent Hashing Mq inProcess data eXchange) is a php extension library of [**K2HDKC**](https://k2hdkc.antpick.ax/).  
+Using this library, [**K2HDKC**](https://k2hdkc.antpick.ax/)'s slave side client application can be implemented with this PHP Extention library.  
+[**K2HDKC phpext**](https://php.k2hdkc.antpick.ax/) provides all functions and features of [**K2HDKC**](https://k2hdkc.antpick.ax/).  
+
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_phpext), {{ page.antpickax_icon }}[**Documents**](https://php.k2hdkc.antpick.ax/).
+
 ## {{ page.title_k2hdkc_java }}
 [**Java Driver for K2HDKC**](https://java.k2hdkc.antpick.ax/index.html)（Java Driver for **K2HDKC**) is an official Java client library for [**K2HDKC**](https://k2hdkc.antpick.ax/index.html).  
 This library provies all functions and features necessary for the slave side client of distributed KVS of [**K2HDKC**](https://k2hdkc.antpick.ax/).  
@@ -227,6 +237,13 @@ Using this library, both server side and slave side of communication program usi
 
 For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/chmpx_nodejs), {{ page.antpickax_icon }}[**Documents**](https://nodejs.chmpx.antpick.ax/).
 
+## {{ page.title_chmpx_phpext }}
+[**CHMPX phpext**](https://php.chmpx.antpick.ax/)（**CHMPX** phpext - Consistent Hashing Mq inProcess data eXchange) is a php extension library of [**CHMPX**](https://chmpx.antpick.ax/).  
+Using this library, both server side and slave side of communication program using [**CHMPX**](https://chmpx.antpick.ax/) can be implemented with your PHP application program.  
+[**CHMPX phpext**](https://php.chmpx.antpick.ax/) provides all functions and features of [**CHMPX**](https://chmpx.antpick.ax/).  
+
+For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/chmpx_phpext), {{ page.antpickax_icon }}[**Documents**](https://php.chmpx.antpick.ax/).
+
 ## {{ page.title_k2hash }}
 [**K2HASH**](https://k2hash.antpick.ax/) is a NoSQL Key Value Store(KVS) library.
 [**K2HASH**](https://k2hash.antpick.ax/) has basic KVS functions and unique features shown below.
@@ -268,6 +285,13 @@ Using this library, you can operate [**K2HASH**](https://k2hash.antpick.ax/)'s d
 [**K2HASH nodejs addon**](https://nodejs.k2hash.antpick.ax/) provides all functions and features of [**K2HASH**](https://k2hash.antpick.ax/).  
 
 For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hash_nodejs), {{ page.antpickax_icon }}[**Documents**](https://nodejs.k2hash.antpick.ax/).
+
+## {{ page.title_k2hash_java }}
+[**Java Driver for K2HASH**](https://java.k2hash.antpick.ax/index.html)（Java Driver for **K2HASH**) is an official Java client library for [**K2HASH**](https://k2hash.antpick.ax/index.html).  
+This library provies all functions and features necessary for the slave side client of distributed KVS of [**K2HASH**](https://k2hash.antpick.ax/).  
+That means eveyone is able to implement [**K2HASH**](https://k2hash.antpick.ax/)'s slave side client application by using this library.  
+
+For details, see the {{ page.github_icon }}[**Code on GitHub**](https://github.com/yahoojapan/k2hash_java), {{ page.antpickax_icon }}[**Documents**](https://java.k2hash.antpick.ax/index.html).
 
 ## {{ page.title_k2hash_go }}
 [**K2HASH golang**](https://pkg.go.dev/github.com/yahoojapan/k2hash_go/k2hash) (**K2HASH** golang - NoSQL Key Value Store(KVS) Go library) is [**K2HASH**](https://k2hash.antpick.ax/)'s Go language client library.  
