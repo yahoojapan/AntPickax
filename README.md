@@ -24,7 +24,7 @@ The open source codes that the AntPickax product has published includes the foll
 #### [K2HDKC DBAAS](https://github.com/yahoojapan/k2hdkc_dbaas)
 K2HDKC DBaaS can work with OpenStack and kubernetes.  
 K2HDKC DBaaS can be built by some tools which are OpenStack with Trove plugin(GUI) / OpenStack(CLI) / kubernetes(CLI) / Helm(CLI).  
-- [K2HDKC DBaaS(Trove)](https://github.com/yahoojapan/k2hdkc_dbaas) - K2HDKC DBaaS for Trove(OpenStack component)
+- [K2HDKC DBaaS(Trove)](https://github.com/yahoojapan/k2hdkc_dbaas_trove) - K2HDKC DBaaS for Trove(OpenStack component)
 - [K2HDKC DBaaS Command Line Interface(CLI)](https://github.com/yahoojapan/k2hdkc_dbaas_cli) - K2HDKC DBaaS Command Line Interface(OpenStack)
 - [K2HDKC DBaaS on kubernetes Command Line Interface(CLI)](https://github.com/yahoojapan/k2hdkc_dbaas_k8s_cli) - K2HDKC DBaaS on kubernetes Command Line Interface
 - [K2HDKC Helm Chart](https://github.com/yahoojapan/k2hdkc_helm_chart) - Helm Chart for K2HDKC DBaaS on kubernetes
