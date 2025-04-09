@@ -97,7 +97,7 @@ In addition, **K2HDKC Helm Chart** can be registered as a repository in [RANCHER
 Please refer to the following for details.  
 - **Information aggregation of K2HDKC DBaaS** - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas) and {{ page.antpickax_icon }}[**Documents**](https://dbaas.k2hdkc.antpick.ax/)
 
-- **K2HDKC DBaaS** with Trove - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas) and {{ page.antpickax_icon }}[**Usage**](https://dbaas.k2hdkc.antpick.ax/usage_trove.html)
+- **K2HDKC DBaaS** with Trove - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas_trove) and {{ page.antpickax_icon }}[**Usage**](https://dbaas.k2hdkc.antpick.ax/usage_trove.html)
 
 - **K2HDKC DBaaS CLI**(Command Line Interface) - {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/k2hdkc_dbaas_cli) and {{ page.antpickax_icon }}[**Usage**](https://dbaas.k2hdkc.antpick.ax/usage_cli.html)
 

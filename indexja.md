@@ -92,7 +92,7 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 詳しくは、以下の詳細を参照してください。  
 - **K2HDKC DBaaS** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas)、{{ page.antpickax_icon }}[**ドキュメント**](https://dbaas.k2hdkc.antpick.ax/indexja.html)
 
-- **K2HDKC DBaaS** with Trove - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas)、{{ page.antpickax_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usage_troveja.html)
+- **K2HDKC DBaaS** with Trove - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas_trove)、{{ page.antpickax_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usage_troveja.html)
 
 - **K2HDKC DBaaS CLI (Command Line Interface)** - {{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/k2hdkc_dbaas_cli)、{{ page.antpickax_icon }}[**使い方**](https://dbaas.k2hdkc.antpick.ax/usage_clija.html)
 
