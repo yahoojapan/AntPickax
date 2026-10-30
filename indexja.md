@@ -14,6 +14,7 @@ title_k2hdkc_java: <a class="to_antpickax_banner" href="https://java.k2hdkc.antp
 title_k2hdkc_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc">K2HDKC golang</a>
 title_k2hdkc_python: <a class="to_antpickax_banner" href="https://k2hdkc-python.readthedocs.io/">K2HDKC python</a>
 title_k2hftfuse: <a class="to_antpickax_banner" href="https://k2hftfuse.antpick.ax/indexja.html">K2HFTFUSE</a>
+title_k2hvec: <a class="to_antpickax_banner" href="https://k2hvec.antpick.ax/indexja.html">K2HVEC</a>
 title_k2hash: <a class="to_antpickax_banner" href="https://k2hash.antpick.ax/indexja.html">K2HASH</a>
 title_k2hash_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hash.antpick.ax/indexja.html">K2HASH nodejs addon</a>
 title_k2hash_java: <a class="to_antpickax_banner" href="https://java.k2hash.antpick.ax/">K2HASH java driver</a>
@@ -47,6 +48,9 @@ Yahoo! JAPANでは、多くのオープンソースを利用し、また貢献�
 ![AntPickax Products](images/top_antpickax.png)
 
 **AntPickax**は、以下のプロダクトをオープンソースとして公開しています。
+
+### K2HVEC
+[**K2HVEC**](https://k2hvec.antpick.ax/indexja.html) (**K2H**ash **Vec**tor database) は、Key-Value Store（KVS）ライブラリ [K2HASH](https://k2hash.antpick.ax/indexja.html) を基盤として構築された、高性能なKVSベースの **ベクトルデータベース** です。
 
 ### **K2HDKC DBaaS**
 [**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/indexja.html) (Database as a Service for K2HDKC) は、[K2HR3](https://k2hr3.antpick.ax/indexja.html)を使い、[OpenStack](https://www.openstack.org/) および [kubernetes](https://kubernetes.io/ja/) と連動して、分散KVSである [K2HDKC](https://k2hdkc.antpick.ax/indexja.html) の環境を構築する **Database as a Service** です。
@@ -238,6 +242,18 @@ SSLでの通信をサポートしています。
 [**CHMPX phpext**](https://php.chmpx.antpick.ax/indexja.html)は、[**CHMPX**](https://chmpx.antpick.ax/indexja.html)のすべての機能・特徴を提供します。  
 
 詳しくは、{{ page.github_icon }}[**ソースコード**](https://github.com/yahoojapan/chmpx_phpext)、{{ page.antpickax_icon }}[**ドキュメント**](https://php.chmpx.antpick.ax/indexja.html) を参照してください。
+
+## {{ page.title_k2hvec }}
+[**K2HVEC**](https://k2hvec.antpick.ax/indexja.html) (**K2H**ash **Vec**tor database) は、Key-Value Store（KVS）ライブラリ [K2HASH](https://k2hash.antpick.ax/indexja.html) を基盤として構築された、高性能なKVSベースの **ベクトルデータベース** です。  
+
+[**K2HVEC**](https://k2hvec.antpick.ax/indexja.html) (**K2H**ash **Vec**tor database)は、[K2HASH](https://k2hash.antpick.ax/indexja.html) の機能を継承した **ベクトルデータベース**であり、以下の機能・特徴を備えています。
+- **キーとデータの柔軟性**  
+ベクトル埋め込み（Embedding）をキーとし、それに関連付けられた任意のユーザーデータ（Value）をペアとして格納・保持します。
+- **高速なベクトル検索**  
+入力されたベクトル埋め込み（Embedding）を用いて、高速かつ正確なベクトル類似度検索を実行します。
+- **K2HASH 機能のフル継承**  
+基盤である [**K2HASH**](https://k2hash.antpick.ax/indexja.html) のネイティブ機能をすべて継承しています。  
+格納するユーザーデータに対して、**データの暗号化**、**有効期限**（TTL）設定、**カスタム属性**の付与 などの[機能](https://k2hash.antpick.ax/featureja.html)をそのまま適用できます。
 
 ## {{ page.title_k2hash }}
 [**K2HASH**](https://k2hash.antpick.ax/indexja.html)は、NoSQL Key Value Store（KVS）libraryです。  
