@@ -14,6 +14,7 @@ title_k2hdkc_java: <a class="to_antpickax_banner" href="https://java.k2hdkc.antp
 title_k2hdkc_go: <a class="to_antpickax_banner" href="https://pkg.go.dev/github.com/yahoojapan/k2hdkc_go/k2hdkc">K2HDKC golang</a>
 title_k2hdkc_python: <a class="to_antpickax_banner" href="https://k2hdkc-python.readthedocs.io/">K2HDKC python</a>
 title_k2hftfuse: <a class="to_antpickax_banner" href="https://k2hftfuse.antpick.ax/">K2HFTFUSE</a>
+title_k2hvec: <a class="to_antpickax_banner" href="https://k2hvec.antpick.ax/">K2HVEC</a>
 title_k2hash: <a class="to_antpickax_banner" href="https://k2hash.antpick.ax/">K2HASH</a>
 title_k2hash_nodejs: <a class="to_antpickax_banner" href="https://nodejs.k2hash.antpick.ax/">K2HASH nodejs addon</a>
 title_k2hash_java: <a class="to_antpickax_banner" href="https://java.k2hash.antpick.ax/">K2HASH java driver</a>
@@ -51,6 +52,9 @@ Among the created software, we have released software as an **AntPickax** produc
 ![AntPickax Products](images/top_antpickax.png)
 
 **AntPickax** publishes the following products as open source.
+
+### K2HVEC
+[**K2HVEC**](https://k2hvec.antpick.ax/) (**K2H**ash **Vec**tor database) is a high-performance, KVS-based **Vector database** built on top of the [K2HASH](https://k2hash.antpick.ax/) Key-Value Store library.
 
 ### **K2HDKC DBaaS**
 [**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/) (Database as a Service for K2HDKC) is a **Database as a Service** that uses [K2HR3](https://k2hr3.antpick.ax/) and works with [OpenStack](https://www.openstack.org/) and [kubernetes](https://kubernetes.io/) to build a [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) Cluster for distributed KVS.
@@ -243,6 +247,18 @@ Using this library, both server side and slave side of communication program usi
 [**CHMPX phpext**](https://php.chmpx.antpick.ax/) provides all functions and features of [**CHMPX**](https://chmpx.antpick.ax/).  
 
 For details, please refer to {{ page.github_icon }}[**Codes on github**](https://github.com/yahoojapan/chmpx_phpext), {{ page.antpickax_icon }}[**Documents**](https://php.chmpx.antpick.ax/).
+
+## {{ page.title_k2hvec }}
+[**K2HVEC**](https://k2hvec.antpick.ax/) (**K2H**ash **Vec**tor database) is a high-performance, KVS-based **Vector database** built on top of the [K2HASH](https://k2hash.antpick.ax/) Key-Value Store library.  
+
+The [**K2HVEC**](https://k2hvec.antpick.ax/) has unique features shown below.
+- **Key-Value Flexibility**  
+K2HVEC stores and retains pairs of vector embeddings(used as keys) and their associated arbitrary user data(values).
+- **Fast Vector Search**  
+Performs high-speed and accurate vector similarity searches using specified input vector embeddings.
+- **Full Inheritance of K2HASH Features**  
+Inherits all native capabilities of the underlying [**K2HASH**](https://k2hash.antpick.ax/) engine.  
+You can directly apply [features](https://k2hash.antpick.ax/feature.html) such as **data encryption**, **expiration limits** (TTL), and **custom attributes** to the stored user data.
 
 ## {{ page.title_k2hash }}
 [**K2HASH**](https://k2hash.antpick.ax/) is a NoSQL Key Value Store(KVS) library.
