@@ -53,9 +53,6 @@ Among the created software, we have released software as an **AntPickax** produc
 
 **AntPickax** publishes the following products as open source.
 
-### K2HVEC
-[**K2HVEC**](https://k2hvec.antpick.ax/) (**K2H**ash **Vec**tor database) is a high-performance, KVS-based **Vector database** built on top of the [K2HASH](https://k2hash.antpick.ax/) Key-Value Store library.
-
 ### **K2HDKC DBaaS**
 [**K2HDKC DBaaS**](https://dbaas.k2hdkc.antpick.ax/) (Database as a Service for K2HDKC) is a **Database as a Service** that uses [K2HR3](https://k2hr3.antpick.ax/) and works with [OpenStack](https://www.openstack.org/) and [kubernetes](https://kubernetes.io/) to build a [K2HDKC(K2Hash based Distributed Kvs Cluster)](https://k2hdkc.antpick.ax/index.html) Cluster for distributed KVS.
 ### **K2HR3**
@@ -66,6 +63,8 @@ Among the created software, we have released software as an **AntPickax** produc
 [**K2HFTFUSE**](https://k2hftfuse.antpick.ax/) (**K2H**ash **F**ile **T**ransaction by **FUSE** based file system) is a component based on FUSE library which can transfer files, texts and logs at high speed and relay them and aggregate them.
 ### **CHMPX**
 [**CHMPX**](https://chmpx.antpick.ax/) (**C**onsistent **H**ashing **M**q in**P**rocess data e**X**change) is a very fast network communication middleware to construct a cluster.
+### **K2HVEC**
+[**K2HVEC**](https://k2hvec.antpick.ax/) (**K2H**ash **Vec**tor database) is a high-performance, KVS-based **Vector database** built on top of the [K2HASH](https://k2hash.antpick.ax/) Key-Value Store library.
 ### **K2HASH**
 [**K2HASH**](https://k2hash.antpick.ax/) is a vey fast Key Value Store(KVS) library featuring very large file support and many useful functions.
 ### **FULLOCK**
