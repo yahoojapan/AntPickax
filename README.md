@@ -57,6 +57,9 @@ High-speed communication middleware capable of constructing a cluster.
 - [CHMPX nodejs addon](https://github.com/yahoojapan/chmpx_nodejs) - Node.js addon library
 - [CHMPX phpext](https://github.com/yahoojapan/chmpx_phpext) - PHP extension library
 
+#### [K2HVEC](https://github.com/yahoojapan/k2hvec)
+High-performance, KVS-based Vector database built on top of the K2HASH Key-Value Store library.
+
 #### [K2HASH](https://github.com/yahoojapan/k2hash)
 Key Value Store(KVS) library featuring high speed, large capacity and many functions.
 - [K2HASH nodejs addon](https://github.com/yahoojapan/k2hash_nodejs) - Node.js addon library
@@ -85,6 +88,7 @@ A fast and secure exclusive control library used by k2hash, chmpx.
 - [chmpx](https://chmpx.antpick.ax/)
 - [chmpx nodejs addon](https://nodejs.chmpx.antpick.ax/)
 - [chmpx phpext](https://php.chmpx.antpick.ax/)
+- [k2hvec](https://k2hvec.antpick.ax/)
 - [k2hash](https://k2hash.antpick.ax/)
 - [k2hash nodejs addon](https://nodejs.k2hash.antpick.ax/)
 - [k2hash java driver](https://java.k2hash.antpick.ax/)
